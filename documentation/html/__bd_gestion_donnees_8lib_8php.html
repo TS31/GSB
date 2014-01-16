@@ -1,0 +1,921 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>GSB_Appli: Référence du fichier /home/trackoen/PHP_PROJECT/GSB_Appli/include/_bdGestionDonnees.lib.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">GSB_Appli
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('__bd_gestion_donnees_8lib_8php.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">Espaces de nommage</a> &#124;
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier _bdGestionDonnees.lib.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a href="__bd_gestion_donnees_8lib_8php_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="namespaces"></a>
+Espaces de nommage</h2></td></tr>
+<tr class="memitem:namespacedefault"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedefault.html">default</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a3e03d598e990acf42577600cfe37f114"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a3e03d598e990acf42577600cfe37f114">connecterServeurBD</a> ()</td></tr>
+<tr class="memitem:a2a30766b0cf73bf7a75b6a14756924db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a2a30766b0cf73bf7a75b6a14756924db">activerBD</a> ($idCnx)</td></tr>
+<tr class="memitem:aa443bd4a88ea69ec0e39ef82efd79f06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#aa443bd4a88ea69ec0e39ef82efd79f06">deconnecterServeurBD</a> ($idCnx)</td></tr>
+<tr class="memitem:af2cca7a3ba7b15f9cedf99333367e598"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598">filtrerChainePourBD</a> ($str)</td></tr>
+<tr class="memitem:a3d9b6723fcf62f7ccd5658e6b9485977"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a3d9b6723fcf62f7ccd5658e6b9485977">obtenirDetailVisiteur</a> ($idCnx, $unId)</td></tr>
+<tr class="memitem:a6119c74cdb5769c2a42bc14232cfc235"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a6119c74cdb5769c2a42bc14232cfc235">obtenirDetailFicheFrais</a> ($idCnx, $unMois, $unIdVisiteur)</td></tr>
+<tr class="memitem:a0e6e5b420aed0486b7a9af7975739787"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a0e6e5b420aed0486b7a9af7975739787">existeFicheFrais</a> ($idCnx, $unMois, $unIdVisiteur)</td></tr>
+<tr class="memitem:a43c72282ff5396e3b67cc87753da4383"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a43c72282ff5396e3b67cc87753da4383">obtenirDernierMoisSaisi</a> ($idCnx, $unIdVisiteur)</td></tr>
+<tr class="memitem:a493124b80e53529be81247852b149f96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a493124b80e53529be81247852b149f96">ajouterFicheFrais</a> ($idCnx, $unMois, $unIdVisiteur)</td></tr>
+<tr class="memitem:af7ab441030c5c590de0b463414880a16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#af7ab441030c5c590de0b463414880a16">obtenirReqMoisFicheFrais</a> ($unIdVisiteur)</td></tr>
+<tr class="memitem:a8a9e576b89da1f4174e8730e2a66873b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a8a9e576b89da1f4174e8730e2a66873b">obtenirReqEltsForfaitFicheFrais</a> ($unMois, $unIdVisiteur)</td></tr>
+<tr class="memitem:a0c288b49f3dac1ab111e800f2794aac4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a0c288b49f3dac1ab111e800f2794aac4">obtenirReqEltsHorsForfaitFicheFrais</a> ($unMois, $unIdVisiteur)</td></tr>
+<tr class="memitem:aa1a490dbef0da5c098e871f4091b910f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#aa1a490dbef0da5c098e871f4091b910f">supprimerLigneHF</a> ($idCnx, $unIdLigneHF)</td></tr>
+<tr class="memitem:a004b6774c7d5f590198b8ae4ad1ab424"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a004b6774c7d5f590198b8ae4ad1ab424">ajouterLigneHF</a> ($idCnx, $unMois, $unIdVisiteur, $uneDateHF, $unLibelleHF, $unMontantHF)</td></tr>
+<tr class="memitem:a4471713bb3f5901d94f0e18de221e7a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a4471713bb3f5901d94f0e18de221e7a6">modifierEltsForfait</a> ($idCnx, $unMois, $unIdVisiteur, $desEltsForfait)</td></tr>
+<tr class="memitem:a67ac93fb32572194c13d3d2dca86af73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a67ac93fb32572194c13d3d2dca86af73">verifierInfosConnexion</a> ($idCnx, $unLogin, $unMdp)</td></tr>
+<tr class="memitem:a6f2b26d8059c5c5ad5967b976dd0915d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__bd_gestion_donnees_8lib_8php.html#a6f2b26d8059c5c5ad5967b976dd0915d">modifierEtatFicheFrais</a> ($idCnx, $unMois, $unIdVisiteur, $unEtat)</td></tr>
+</table>
+<h2>Documentation des fonctions</h2>
+<a class="anchor" id="a2a30766b0cf73bf7a75b6a14756924db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">activerBD </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sélectionne (rend active) la base de données. Sélectionne (rend active) la BD prédéfinie gsb_frais sur la connexion identifiée par $idCnx. Retourne true si succès, false sinon. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>boolean succès ou échec de sélection BD </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00031">31</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a493124b80e53529be81247852b149f96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ajouterFicheFrais </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Ajoute une nouvelle fiche de frais et les éléments forfaitisés associés, Ajoute la fiche de frais du mois de $unMois (MMAAAA) du visiteur $idVisiteur, avec les éléments forfaitisés associés dont la quantité initiale est affectée à 0. Clôt éventuellement la fiche de frais précédente du visiteur. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois demandé (MMAAAA) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00167">167</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96_cgraph" id="__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="384,27,523,56"/><area shape="rect" id="node5" href="__bd_gestion_donnees_8lib_8php.html#a43c72282ff5396e3b67cc87753da4383" title="obtenirDernierMoisSaisi" alt="" coords="176,26,336,55"/><area shape="rect" id="node7" href="__bd_gestion_donnees_8lib_8php.html#a6119c74cdb5769c2a42bc14232cfc235" title="obtenirDetailFicheFrais" alt="" coords="179,79,333,108"/><area shape="rect" id="node10" href="__bd_gestion_donnees_8lib_8php.html#a6f2b26d8059c5c5ad5967b976dd0915d" title="modifierEtatFicheFrais" alt="" coords="180,132,332,162"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a004b6774c7d5f590198b8ae4ad1ab424"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ajouterLigneHF </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$uneDateHF</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unLibelleHF</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMontantHF</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Ajoute une nouvelle ligne hors forfait. Insère dans la BD la ligne hors forfait de libellé $unLibelleHF du montant $unMontantHF ayant eu lieu à la date $uneDateHF pour la fiche de frais du mois $unMois du visiteur d'id $unIdVisiteur </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois demandé (AAMMMM) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id du visiteur </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$uneDateHF</td><td>date du frais hors forfait </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unLibelleHF</td><td>libellé du frais hors forfait </td></tr>
+    <tr><td class="paramtype">double</td><td class="paramname">$unMontantHF</td><td>montant du frais hors forfait </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00278">278</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424_cgraph" id="__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="185,5,324,35"/><area shape="rect" id="node5" href="__utilitaires_et_gestion_erreurs_8lib_8php.html#a39cb4860d4761f8107a63bac07db4102" title="convertirDateFrancaisVers\lAnglais" alt="" coords="167,58,343,105"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e03d598e990acf42577600cfe37f114"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">connecterServeurBD </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Se connecte au serveur de données MySql. Se connecte au serveur de données MySql à partir de valeurs prédéfinies de connexion (hôte, compte utilisateur et mot de passe). Retourne l'identifiant de connexion si succès obtenu, le booléen false si problème de connexion. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>resource identifiant de connexion </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00017">17</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa443bd4a88ea69ec0e39ef82efd79f06"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">deconnecterServeurBD </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Ferme la connexion au serveur de données. Ferme la connexion au serveur de données identifiée par l'identifiant de connexion $idCnx. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00047">47</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0e6e5b420aed0486b7a9af7975739787"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">existeFicheFrais </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vérifie si une fiche de frais existe ou non. Retourne true si la fiche de frais du mois de $unMois (MMAAAA) du visiteur $idVisiteur existe, false sinon. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois demandé (MMAAAA) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>booléen existence ou non de la fiche de frais </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00122">122</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787_cgraph" id="__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="173,5,312,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af2cca7a3ba7b15f9cedf99333367e598"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">filtrerChainePourBD </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Echappe les caractères spéciaux d'une chaîne. Envoie la chaîne $str échappée, càd avec les caractères considérés spéciaux par MySql (tq la quote simple) précédés d'un \, ce qui annule leur effet spécial </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$str</td><td>chaîne à échapper </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>string chaîne échappée </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00058">58</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598_icgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598_icgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598_icgraph" id="__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598_icgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#a3d9b6723fcf62f7ccd5658e6b9485977" title="obtenirDetailVisiteur" alt="" coords="212,5,351,35"/><area shape="rect" id="node5" href="__bd_gestion_donnees_8lib_8php.html#a6119c74cdb5769c2a42bc14232cfc235" title="obtenirDetailFicheFrais" alt="" coords="204,59,359,88"/><area shape="rect" id="node7" href="__bd_gestion_donnees_8lib_8php.html#a493124b80e53529be81247852b149f96" title="ajouterFicheFrais" alt="" coords="419,85,541,115"/><area shape="rect" id="node9" href="__bd_gestion_donnees_8lib_8php.html#a0e6e5b420aed0486b7a9af7975739787" title="existeFicheFrais" alt="" coords="223,163,340,192"/><area shape="rect" id="node12" href="__bd_gestion_donnees_8lib_8php.html#a8a9e576b89da1f4174e8730e2a66873b" title="obtenirReqEltsForfaitFiche\lFrais" alt="" coords="193,215,369,262"/><area shape="rect" id="node14" href="__bd_gestion_donnees_8lib_8php.html#a0c288b49f3dac1ab111e800f2794aac4" title="obtenirReqEltsHorsForfait\lFicheFrais" alt="" coords="195,285,368,331"/><area shape="rect" id="node16" href="__bd_gestion_donnees_8lib_8php.html#a004b6774c7d5f590198b8ae4ad1ab424" title="ajouterLigneHF" alt="" coords="227,355,336,384"/><area shape="rect" id="node18" href="__bd_gestion_donnees_8lib_8php.html#a4471713bb3f5901d94f0e18de221e7a6" title="modifierEltsForfait" alt="" coords="217,408,345,437"/><area shape="rect" id="node20" href="__bd_gestion_donnees_8lib_8php.html#a67ac93fb32572194c13d3d2dca86af73" title="verifierInfosConnexion" alt="" coords="205,461,357,491"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4471713bb3f5901d94f0e18de221e7a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">modifierEltsForfait </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$desEltsForfait</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifie les quantités des éléments forfaitisés d'une fiche de frais. Met à jour les éléments forfaitisés contenus dans $desEltsForfaits pour le visiteur $unIdVisiteur et le mois $unMois dans la table LigneFraisForfait, après avoir filtré (annulé l'effet de certains caractères considérés comme spéciaux par MySql) chaque donnée </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois demandé (MMAAAA) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$desEltsForfait</td><td>tableau des quantités des éléments hors forfait avec pour clés les identifiants des frais forfaitisés </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00301">301</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6_cgraph" id="__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="181,5,320,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f2b26d8059c5c5ad5967b976dd0915d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">modifierEtatFicheFrais </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unEtat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifie l'état et la date de modification d'une fiche de frais</p>
+<p>Met à jour l'état de la fiche de frais du visiteur $unIdVisiteur pour le mois $unMois à la nouvelle valeur $unEtat et passe la date de modif à la date d'aujourd'hui </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td></td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois sous la forme aaaamm </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00348">348</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d_icgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d_icgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d_icgraph" id="__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d_icgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#a493124b80e53529be81247852b149f96" title="ajouterFicheFrais" alt="" coords="208,5,331,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a43c72282ff5396e3b67cc87753da4383"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obtenirDernierMoisSaisi </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fournit le mois de la dernière fiche de frais d'un visiteur. Retourne le mois de la dernière fiche de frais du visiteur d'id $unIdVisiteur. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>string dernier mois sous la forme AAAAMM </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00144">144</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383_icgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383_icgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383_icgraph" id="__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383_icgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#a493124b80e53529be81247852b149f96" title="ajouterFicheFrais" alt="" coords="213,5,336,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6119c74cdb5769c2a42bc14232cfc235"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obtenirDetailFicheFrais </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fournit les informations d'une fiche de frais. Retourne les informations de la fiche de frais du mois de $unMois (MMAAAA) sous la forme d'un tableau associatif dont les clés sont les noms des colonnes (nbJustitificatifs, idEtat, libelleEtat, dateModif, montantValide). </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois demandé (MMAAAA) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>array tableau associatif de la fiche de frais </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00098">98</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_cgraph" id="__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="211,5,349,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_icgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_icgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_icgraph" id="__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_icgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#a493124b80e53529be81247852b149f96" title="ajouterFicheFrais" alt="" coords="211,5,333,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d9b6723fcf62f7ccd5658e6b9485977"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obtenirDetailVisiteur </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fournit les informations sur un visiteur demandé. Retourne les informations du visiteur d'id $unId sous la forme d'un tableau associatif dont les clés sont les noms des colonnes(id, nom, prenom). </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unId</td><td>id de l'utilisateur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>array tableau associatif du visiteur </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00076">76</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977_cgraph" id="__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="192,5,331,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a9e576b89da1f4174e8730e2a66873b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obtenirReqEltsForfaitFicheFrais </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retourne le texte de la requète select concernant les éléments forfaitisés d'un visiteur pour un mois donnés.</p>
+<p>La requète de sélection fournie permettra d'obtenir l'id, le libellé et la quantité des éléments forfaitisés de la fiche de frais du visiteur d'id $idVisiteur pour le mois $mois </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois demandé (MMAAAA) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>string texte de la requète select </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00226">226</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b_cgraph" id="__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="232,13,371,43"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c288b49f3dac1ab111e800f2794aac4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obtenirReqEltsHorsForfaitFicheFrais </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMois</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retourne le texte de la requète select concernant les éléments hors forfait d'un visiteur pour un mois donnés.</p>
+<p>La requète de sélection fournie permettra d'obtenir l'id, la date, le libellé et le montant des éléments hors forfait de la fiche de frais du visiteur d'id $idVisiteur pour le mois $mois </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$unMois</td><td>mois demandé (MMAAAA) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>string texte de la requète select </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00245">245</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4_cgraph" id="__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="227,13,365,43"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af7ab441030c5c590de0b463414880a16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obtenirReqMoisFicheFrais </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdVisiteur</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retourne le texte de la requète select concernant les mois pour lesquels un visiteur a une fiche de frais.</p>
+<p>La requète de sélection fournie permettra d'obtenir les mois (AAAAMM) pour lesquels le visiteur $unIdVisiteur a une fiche de frais. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$unIdVisiteur</td><td>id visiteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>string texte de la requète select </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00209">209</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa1a490dbef0da5c098e871f4091b910f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">supprimerLigneHF </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unIdLigneHF</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Supprime une ligne hors forfait. Supprime dans la BD la ligne hors forfait d'id $unIdLigneHF </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$idLigneHF</td><td>id de la ligne hors forfait </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00260">260</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a67ac93fb32572194c13d3d2dca86af73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">verifierInfosConnexion </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$idCnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unLogin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$unMdp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Contrôle les informations de connexionn d'un utilisateur. Vérifie si les informations de connexion $unLogin, $unMdp sont ou non valides. Retourne les informations de l'utilisateur sous forme de tableau associatif dont les clés sont les noms des colonnes (id, nom, prenom, login, mdp) si login et mot de passe existent, le booléen false sinon. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">resource</td><td class="paramname">$idCnx</td><td>identifiant de connexion </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unLogin</td><td>login </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$unMdp</td><td>mot de passe </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>array tableau associatif ou booléen false </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html#l00323">323</a> du fichier <a class="el" href="__bd_gestion_donnees_8lib_8php_source.html">_bdGestionDonnees.lib.php</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73_cgraph.png" border="0" usemap="#__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73_cgraph" alt=""/></div>
+<map name="__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73_cgraph" id="__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73_cgraph">
+<area shape="rect" id="node3" href="__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="205,5,344,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="__bd_gestion_donnees_8lib_8php.html">_bdGestionDonnees.lib.php</a></li>
+    <li class="footer">Généré le Mardi Décembre 10 2013 23:18:41 pour GSB_Appli par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+\hypertarget{c_saisie_fiche_frais_8php}{\section{Référence du fichier /home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/c\-Saisie\-Fiche\-Frais.php}
+\label{c_saisie_fiche_frais_8php}\index{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/c\-Saisie\-Fiche\-Frais.\-php@{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/c\-Saisie\-Fiche\-Frais.\-php}}
+}
+\subsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacedefault}{default}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_aad2a80747c2de66b59cb18d493ae7a8b}{\$rep\-Include} = './include/'
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a5b407bc19b08452156cf04e24ef10ed7}{if} (!\hyperlink{__gestion_session_8lib_8php_afe911e51f16958708b8b700981cd2567}{est\-Visiteur\-Connecte}())
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_ac3dd350c90be7c45f992a6efde984c66}{\$mois} = sprintf(\char`\"{}\%04d\%02d\char`\"{}, date(\char`\"{}\-Y\char`\"{}), date(\char`\"{}m\char`\"{}))
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_aa264670a6cc65a3efa2cd5387517ac2b}{\$existe\-Fiche\-Frais} = \hyperlink{__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787}{existe\-Fiche\-Frais}(\$id\-Connexion, \$mois, \hyperlink{__gestion_session_8lib_8php_a7af627b049f30bda0af2678c3327aff0}{obtenir\-Id\-User\-Connecte}())
+\item 
+\hyperlink{c_se_connecter_8php_a161e098d41499c163a94c3fa5cd0e698}{if}(!\$\hyperlink{__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787}{existe\-Fiche\-Frais}) \hyperlink{c_saisie_fiche_frais_8php_af8e2930c82415b5ec01ec03bea717bf3}{\$etape} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}{lire\-Donnee}(\char`\"{}etape\char`\"{},\char`\"{}demander\-Saisie\char`\"{})
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a7bbd2a8422d6c9a9d2d236436508e417}{\$tab\-Qte\-Elts\-Forfait} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab0070fc1ef4283caa3457dd5b71a86de}{lire\-Donnee\-Post}(\char`\"{}txt\-Elts\-Forfait\char`\"{}, \char`\"{}\char`\"{})
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a08c2ee78af26f9f01097c208a92dccb6}{\$id\-Ligne\-H\-F} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}{lire\-Donnee}(\char`\"{}id\-Ligne\-H\-F\char`\"{}, \char`\"{}\char`\"{})
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a6d93c38f9d39412ede016aff941c4476}{\$date\-H\-F} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}{lire\-Donnee}(\char`\"{}txt\-Date\-H\-F\char`\"{}, \char`\"{}\char`\"{})
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a5c651e0f3d29d0049ca4d2e5ad8db5da}{\$libelle\-H\-F} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}{lire\-Donnee}(\char`\"{}txt\-Libelle\-H\-F\char`\"{}, \char`\"{}\char`\"{})
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_afb61cb595292a2af29810acbc2fde126}{\$montant\-H\-F} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}{lire\-Donnee}(\char`\"{}txt\-Montant\-H\-F\char`\"{}, \char`\"{}\char`\"{})
+\item 
+\hyperlink{c_se_connecter_8php_a161e098d41499c163a94c3fa5cd0e698}{if}(\$etape==\char`\"{}valider\-Saisie\char`\"{}$|$$|$\$etape==\char`\"{}valider\-Ajout\-Ligne\-H\-F\char`\"{}$|$$|$\$etape==\char`\"{}valider\-Suppression\-Ligne\-H\-F\char`\"{}) \hyperlink{c_saisie_fiche_frais_8php_a63a7a283ea5dee8af1e2d5a3435bf370}{\$req} = \hyperlink{__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b}{obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais}(\$mois, \hyperlink{__gestion_session_8lib_8php_a7af627b049f30bda0af2678c3327aff0}{obtenir\-Id\-User\-Connecte}())
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a146da22ba279c9539211eb2c6c95fac2}{\$id\-Jeu\-Elts\-Frais\-Forfait} = mysql\-\_\-query(\$req, \$id\-Connexion)
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a022a86765b1e04a80ab0d4fdf39e85c5}{\$lg\-Elt\-Forfait} = mysql\-\_\-fetch\-\_\-assoc(\$id\-Jeu\-Elts\-Frais\-Forfait)
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_a225816061d7d40976793178f909f3f2f}{\$id\-Jeu\-Elts\-Hors\-Forfait} = mysql\-\_\-query(\$req, \$id\-Connexion)
+\item 
+\hyperlink{c_saisie_fiche_frais_8php_aa394f8fa7752f4dc88580fee95a5489f}{\$lg\-Elt\-Hors\-Forfait} = mysql\-\_\-fetch\-\_\-assoc(\$id\-Jeu\-Elts\-Hors\-Forfait)
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des variables}
+\hypertarget{c_saisie_fiche_frais_8php_a6d93c38f9d39412ede016aff941c4476}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$date\-H\-F@{\$date\-H\-F}}
+\index{\$date\-H\-F@{\$date\-H\-F}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$date\-H\-F}]{\setlength{\rightskip}{0pt plus 5cm}\$date\-H\-F = {\bf lire\-Donnee}(\char`\"{}txt\-Date\-H\-F\char`\"{}, \char`\"{}\char`\"{})}}\label{c_saisie_fiche_frais_8php_a6d93c38f9d39412ede016aff941c4476}
+
+
+Définition à la ligne 31 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_af8e2930c82415b5ec01ec03bea717bf3}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$etape@{\$etape}}
+\index{\$etape@{\$etape}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$etape}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (!\${\bf existe\-Fiche\-Frais}) \$etape = {\bf lire\-Donnee}(\char`\"{}etape\char`\"{},\char`\"{}demander\-Saisie\char`\"{})}}\label{c_saisie_fiche_frais_8php_af8e2930c82415b5ec01ec03bea717bf3}
+
+
+Définition à la ligne 26 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_aa264670a6cc65a3efa2cd5387517ac2b}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$existe\-Fiche\-Frais@{\$existe\-Fiche\-Frais}}
+\index{\$existe\-Fiche\-Frais@{\$existe\-Fiche\-Frais}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$existe\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf existe\-Fiche\-Frais} = {\bf existe\-Fiche\-Frais}(\$id\-Connexion, \$mois, {\bf obtenir\-Id\-User\-Connecte}())}}\label{c_saisie_fiche_frais_8php_aa264670a6cc65a3efa2cd5387517ac2b}
+
+
+Définition à la ligne 19 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a146da22ba279c9539211eb2c6c95fac2}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$id\-Jeu\-Elts\-Frais\-Forfait@{\$id\-Jeu\-Elts\-Frais\-Forfait}}
+\index{\$id\-Jeu\-Elts\-Frais\-Forfait@{\$id\-Jeu\-Elts\-Frais\-Forfait}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$id\-Jeu\-Elts\-Frais\-Forfait}]{\setlength{\rightskip}{0pt plus 5cm}\$id\-Jeu\-Elts\-Frais\-Forfait = mysql\-\_\-query(\$req, \$id\-Connexion)}}\label{c_saisie_fiche_frais_8php_a146da22ba279c9539211eb2c6c95fac2}
+
+
+Définition à la ligne 86 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a225816061d7d40976793178f909f3f2f}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$id\-Jeu\-Elts\-Hors\-Forfait@{\$id\-Jeu\-Elts\-Hors\-Forfait}}
+\index{\$id\-Jeu\-Elts\-Hors\-Forfait@{\$id\-Jeu\-Elts\-Hors\-Forfait}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$id\-Jeu\-Elts\-Hors\-Forfait}]{\setlength{\rightskip}{0pt plus 5cm}\$id\-Jeu\-Elts\-Hors\-Forfait = mysql\-\_\-query(\$req, \$id\-Connexion)}}\label{c_saisie_fiche_frais_8php_a225816061d7d40976793178f909f3f2f}
+
+
+Définition à la ligne 131 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a08c2ee78af26f9f01097c208a92dccb6}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$id\-Ligne\-H\-F@{\$id\-Ligne\-H\-F}}
+\index{\$id\-Ligne\-H\-F@{\$id\-Ligne\-H\-F}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$id\-Ligne\-H\-F}]{\setlength{\rightskip}{0pt plus 5cm}\$id\-Ligne\-H\-F = {\bf lire\-Donnee}(\char`\"{}id\-Ligne\-H\-F\char`\"{}, \char`\"{}\char`\"{})}}\label{c_saisie_fiche_frais_8php_a08c2ee78af26f9f01097c208a92dccb6}
+
+
+Définition à la ligne 30 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a022a86765b1e04a80ab0d4fdf39e85c5}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$lg\-Elt\-Forfait@{\$lg\-Elt\-Forfait}}
+\index{\$lg\-Elt\-Forfait@{\$lg\-Elt\-Forfait}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$lg\-Elt\-Forfait}]{\setlength{\rightskip}{0pt plus 5cm}\$lg\-Elt\-Forfait = mysql\-\_\-fetch\-\_\-assoc(\$id\-Jeu\-Elts\-Frais\-Forfait)}}\label{c_saisie_fiche_frais_8php_a022a86765b1e04a80ab0d4fdf39e85c5}
+
+
+Définition à la ligne 88 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_aa394f8fa7752f4dc88580fee95a5489f}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$lg\-Elt\-Hors\-Forfait@{\$lg\-Elt\-Hors\-Forfait}}
+\index{\$lg\-Elt\-Hors\-Forfait@{\$lg\-Elt\-Hors\-Forfait}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$lg\-Elt\-Hors\-Forfait}]{\setlength{\rightskip}{0pt plus 5cm}\$lg\-Elt\-Hors\-Forfait = mysql\-\_\-fetch\-\_\-assoc(\$id\-Jeu\-Elts\-Hors\-Forfait)}}\label{c_saisie_fiche_frais_8php_aa394f8fa7752f4dc88580fee95a5489f}
+
+
+Définition à la ligne 132 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a5c651e0f3d29d0049ca4d2e5ad8db5da}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$libelle\-H\-F@{\$libelle\-H\-F}}
+\index{\$libelle\-H\-F@{\$libelle\-H\-F}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$libelle\-H\-F}]{\setlength{\rightskip}{0pt plus 5cm}\$libelle\-H\-F = {\bf lire\-Donnee}(\char`\"{}txt\-Libelle\-H\-F\char`\"{}, \char`\"{}\char`\"{})}}\label{c_saisie_fiche_frais_8php_a5c651e0f3d29d0049ca4d2e5ad8db5da}
+
+
+Définition à la ligne 32 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_ac3dd350c90be7c45f992a6efde984c66}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$mois@{\$mois}}
+\index{\$mois@{\$mois}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$mois}]{\setlength{\rightskip}{0pt plus 5cm}\$mois = sprintf(\char`\"{}\%04d\%02d\char`\"{}, date(\char`\"{}\-Y\char`\"{}), date(\char`\"{}m\char`\"{}))}}\label{c_saisie_fiche_frais_8php_ac3dd350c90be7c45f992a6efde984c66}
+
+
+Définition à la ligne 17 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_afb61cb595292a2af29810acbc2fde126}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$montant\-H\-F@{\$montant\-H\-F}}
+\index{\$montant\-H\-F@{\$montant\-H\-F}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$montant\-H\-F}]{\setlength{\rightskip}{0pt plus 5cm}\$montant\-H\-F = {\bf lire\-Donnee}(\char`\"{}txt\-Montant\-H\-F\char`\"{}, \char`\"{}\char`\"{})}}\label{c_saisie_fiche_frais_8php_afb61cb595292a2af29810acbc2fde126}
+
+
+Définition à la ligne 33 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_aad2a80747c2de66b59cb18d493ae7a8b}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$rep\-Include@{\$rep\-Include}}
+\index{\$rep\-Include@{\$rep\-Include}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$rep\-Include}]{\setlength{\rightskip}{0pt plus 5cm}\$rep\-Include = './include/'}}\label{c_saisie_fiche_frais_8php_aad2a80747c2de66b59cb18d493ae7a8b}
+
+
+Définition à la ligne 7 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a63a7a283ea5dee8af1e2d5a3435bf370}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$req@{\$req}}
+\index{\$req@{\$req}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$req}]{\setlength{\rightskip}{0pt plus 5cm}\$req = {\bf obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais}(\$mois, {\bf obtenir\-Id\-User\-Connecte}())}}\label{c_saisie_fiche_frais_8php_a63a7a283ea5dee8af1e2d5a3435bf370}
+
+
+Définition à la ligne 85 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a7bbd2a8422d6c9a9d2d236436508e417}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!\$tab\-Qte\-Elts\-Forfait@{\$tab\-Qte\-Elts\-Forfait}}
+\index{\$tab\-Qte\-Elts\-Forfait@{\$tab\-Qte\-Elts\-Forfait}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{\$tab\-Qte\-Elts\-Forfait}]{\setlength{\rightskip}{0pt plus 5cm}\$tab\-Qte\-Elts\-Forfait = {\bf lire\-Donnee\-Post}(\char`\"{}txt\-Elts\-Forfait\char`\"{}, \char`\"{}\char`\"{})}}\label{c_saisie_fiche_frais_8php_a7bbd2a8422d6c9a9d2d236436508e417}
+
+
+Définition à la ligne 28 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+
+\hypertarget{c_saisie_fiche_frais_8php_a5b407bc19b08452156cf04e24ef10ed7}{\index{c\-Saisie\-Fiche\-Frais.\-php@{c\-Saisie\-Fiche\-Frais.\-php}!if@{if}}
+\index{if@{if}!cSaisieFicheFrais.php@{c\-Saisie\-Fiche\-Frais.\-php}}
+\subsubsection[{if}]{\setlength{\rightskip}{0pt plus 5cm}if(!{\bf est\-Visiteur\-Connecte}())}}\label{c_saisie_fiche_frais_8php_a5b407bc19b08452156cf04e24ef10ed7}
+
+
+Définition à la ligne 11 du fichier c\-Saisie\-Fiche\-Frais.\-php.
+

@@ -1,0 +1,119 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Liste des choses \IeC {\`a} faire}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Index des espaces de nommage}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Liste des espaces de nommage}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Index des fichiers}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Liste des fichiers}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Documentation des espaces de nommage}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}R\IeC {\'e}f\IeC {\'e}rence de l'espace de nommage default}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Description d\IeC {\'e}taill\IeC {\'e}e}{7}{subsection.4.1.1}
+\contentsline {chapter}{\numberline {5}Documentation des fichiers}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/c\discretionary {-}{}{}Accueil.php}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Documentation des variables}{9}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}\$rep\discretionary {-}{}{}Include}{9}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}if}{9}{subsubsection.5.1.1.2}
+\contentsline {section}{\numberline {5.2}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.php}{9}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Documentation des variables}{10}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}\$etape}{10}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Mois}{10}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.3}\$lg\discretionary {-}{}{}Mois}{10}{subsubsection.5.2.1.3}
+\contentsline {subsubsection}{\numberline {5.2.1.4}\$mois\discretionary {-}{}{}Saisi}{10}{subsubsection.5.2.1.4}
+\contentsline {subsubsection}{\numberline {5.2.1.5}\$rep\discretionary {-}{}{}Include}{10}{subsubsection.5.2.1.5}
+\contentsline {subsubsection}{\numberline {5.2.1.6}\$req}{10}{subsubsection.5.2.1.6}
+\contentsline {subsubsection}{\numberline {5.2.1.7}if}{10}{subsubsection.5.2.1.7}
+\contentsline {section}{\numberline {5.3}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.php}{10}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Documentation des variables}{11}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}\$date\discretionary {-}{}{}H\discretionary {-}{}{}F}{11}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}\$etape}{11}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}\$existe\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{11}{subsubsection.5.3.1.3}
+\contentsline {subsubsection}{\numberline {5.3.1.4}\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Elts\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}{11}{subsubsection.5.3.1.4}
+\contentsline {subsubsection}{\numberline {5.3.1.5}\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Elts\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}{11}{subsubsection.5.3.1.5}
+\contentsline {subsubsection}{\numberline {5.3.1.6}\$id\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}{11}{subsubsection.5.3.1.6}
+\contentsline {subsubsection}{\numberline {5.3.1.7}\$lg\discretionary {-}{}{}Elt\discretionary {-}{}{}Forfait}{11}{subsubsection.5.3.1.7}
+\contentsline {subsubsection}{\numberline {5.3.1.8}\$lg\discretionary {-}{}{}Elt\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}{11}{subsubsection.5.3.1.8}
+\contentsline {subsubsection}{\numberline {5.3.1.9}\$libelle\discretionary {-}{}{}H\discretionary {-}{}{}F}{11}{subsubsection.5.3.1.9}
+\contentsline {subsubsection}{\numberline {5.3.1.10}\$mois}{11}{subsubsection.5.3.1.10}
+\contentsline {subsubsection}{\numberline {5.3.1.11}\$montant\discretionary {-}{}{}H\discretionary {-}{}{}F}{11}{subsubsection.5.3.1.11}
+\contentsline {subsubsection}{\numberline {5.3.1.12}\$rep\discretionary {-}{}{}Include}{12}{subsubsection.5.3.1.12}
+\contentsline {subsubsection}{\numberline {5.3.1.13}\$req}{12}{subsubsection.5.3.1.13}
+\contentsline {subsubsection}{\numberline {5.3.1.14}\$tab\discretionary {-}{}{}Qte\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait}{12}{subsubsection.5.3.1.14}
+\contentsline {subsubsection}{\numberline {5.3.1.15}if}{12}{subsubsection.5.3.1.15}
+\contentsline {section}{\numberline {5.4}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/c\discretionary {-}{}{}Se\discretionary {-}{}{}Connecter.php}{12}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Documentation des variables}{12}{subsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.1.1}\$etape}{12}{subsubsection.5.4.1.1}
+\contentsline {subsubsection}{\numberline {5.4.1.2}\$rep\discretionary {-}{}{}Include}{12}{subsubsection.5.4.1.2}
+\contentsline {subsubsection}{\numberline {5.4.1.3}if}{12}{subsubsection.5.4.1.3}
+\contentsline {section}{\numberline {5.5}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/c\discretionary {-}{}{}Se\discretionary {-}{}{}Deconnecter.php}{12}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Documentation des variables}{13}{subsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.1.1}\$rep\discretionary {-}{}{}Include}{13}{subsubsection.5.5.1.1}
+\contentsline {section}{\numberline {5.6}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.lib.\discretionary {-}{}{}php}{13}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Documentation des fonctions}{13}{subsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.1.1}activer\discretionary {-}{}{}B\discretionary {-}{}{}D}{13}{subsubsection.5.6.1.1}
+\contentsline {subsubsection}{\numberline {5.6.1.2}ajouter\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{13}{subsubsection.5.6.1.2}
+\contentsline {subsubsection}{\numberline {5.6.1.3}ajouter\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}{14}{subsubsection.5.6.1.3}
+\contentsline {subsubsection}{\numberline {5.6.1.4}connecter\discretionary {-}{}{}Serveur\discretionary {-}{}{}B\discretionary {-}{}{}D}{15}{subsubsection.5.6.1.4}
+\contentsline {subsubsection}{\numberline {5.6.1.5}deconnecter\discretionary {-}{}{}Serveur\discretionary {-}{}{}B\discretionary {-}{}{}D}{15}{subsubsection.5.6.1.5}
+\contentsline {subsubsection}{\numberline {5.6.1.6}existe\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{15}{subsubsection.5.6.1.6}
+\contentsline {subsubsection}{\numberline {5.6.1.7}filtrer\discretionary {-}{}{}Chaine\discretionary {-}{}{}Pour\discretionary {-}{}{}B\discretionary {-}{}{}D}{16}{subsubsection.5.6.1.7}
+\contentsline {subsubsection}{\numberline {5.6.1.8}modifier\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait}{17}{subsubsection.5.6.1.8}
+\contentsline {subsubsection}{\numberline {5.6.1.9}modifier\discretionary {-}{}{}Etat\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{18}{subsubsection.5.6.1.9}
+\contentsline {subsubsection}{\numberline {5.6.1.10}obtenir\discretionary {-}{}{}Dernier\discretionary {-}{}{}Mois\discretionary {-}{}{}Saisi}{18}{subsubsection.5.6.1.10}
+\contentsline {subsubsection}{\numberline {5.6.1.11}obtenir\discretionary {-}{}{}Detail\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{19}{subsubsection.5.6.1.11}
+\contentsline {subsubsection}{\numberline {5.6.1.12}obtenir\discretionary {-}{}{}Detail\discretionary {-}{}{}Visiteur}{20}{subsubsection.5.6.1.12}
+\contentsline {subsubsection}{\numberline {5.6.1.13}obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{20}{subsubsection.5.6.1.13}
+\contentsline {subsubsection}{\numberline {5.6.1.14}obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Elts\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{21}{subsubsection.5.6.1.14}
+\contentsline {subsubsection}{\numberline {5.6.1.15}obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Mois\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{21}{subsubsection.5.6.1.15}
+\contentsline {subsubsection}{\numberline {5.6.1.16}supprimer\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}{21}{subsubsection.5.6.1.16}
+\contentsline {subsubsection}{\numberline {5.6.1.17}verifier\discretionary {-}{}{}Infos\discretionary {-}{}{}Connexion}{22}{subsubsection.5.6.1.17}
+\contentsline {section}{\numberline {5.7}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/\discretionary {-}{}{}\_\discretionary {-}{}{}fin.inc.\discretionary {-}{}{}php}{22}{section.5.7}
+\contentsline {section}{\numberline {5.8}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/\discretionary {-}{}{}\_\discretionary {-}{}{}gestion\discretionary {-}{}{}Session.lib.\discretionary {-}{}{}php}{22}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Documentation des fonctions}{23}{subsection.5.8.1}
+\contentsline {subsubsection}{\numberline {5.8.1.1}affecter\discretionary {-}{}{}Infos\discretionary {-}{}{}Connecte}{23}{subsubsection.5.8.1.1}
+\contentsline {subsubsection}{\numberline {5.8.1.2}deconnecter\discretionary {-}{}{}Visiteur}{23}{subsubsection.5.8.1.2}
+\contentsline {subsubsection}{\numberline {5.8.1.3}est\discretionary {-}{}{}Visiteur\discretionary {-}{}{}Connecte}{23}{subsubsection.5.8.1.3}
+\contentsline {subsubsection}{\numberline {5.8.1.4}init\discretionary {-}{}{}Session}{23}{subsubsection.5.8.1.4}
+\contentsline {subsubsection}{\numberline {5.8.1.5}obtenir\discretionary {-}{}{}Id\discretionary {-}{}{}User\discretionary {-}{}{}Connecte}{23}{subsubsection.5.8.1.5}
+\contentsline {section}{\numberline {5.9}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/\discretionary {-}{}{}\_\discretionary {-}{}{}init.inc.\discretionary {-}{}{}php}{24}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Documentation des variables}{24}{subsection.5.9.1}
+\contentsline {subsubsection}{\numberline {5.9.1.1}\$demande\discretionary {-}{}{}Deconnexion}{24}{subsubsection.5.9.1.1}
+\contentsline {subsubsection}{\numberline {5.9.1.2}\$id\discretionary {-}{}{}Connexion}{24}{subsubsection.5.9.1.2}
+\contentsline {subsubsection}{\numberline {5.9.1.3}\$tab\discretionary {-}{}{}Erreurs}{24}{subsubsection.5.9.1.3}
+\contentsline {section}{\numberline {5.10}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/\discretionary {-}{}{}\_\discretionary {-}{}{}sommaire.inc.\discretionary {-}{}{}php}{24}{section.5.10}
+\contentsline {section}{\numberline {5.11}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.lib.\discretionary {-}{}{}php}{24}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Documentation des fonctions}{25}{subsection.5.11.1}
+\contentsline {subsubsection}{\numberline {5.11.1.1}ajouter\discretionary {-}{}{}Erreur}{25}{subsubsection.5.11.1.1}
+\contentsline {subsubsection}{\numberline {5.11.1.2}convertir\discretionary {-}{}{}Date\discretionary {-}{}{}Anglais\discretionary {-}{}{}Vers\discretionary {-}{}{}Francais}{25}{subsubsection.5.11.1.2}
+\contentsline {subsubsection}{\numberline {5.11.1.3}convertir\discretionary {-}{}{}Date\discretionary {-}{}{}Francais\discretionary {-}{}{}Vers\discretionary {-}{}{}Anglais}{25}{subsubsection.5.11.1.3}
+\contentsline {subsubsection}{\numberline {5.11.1.4}est\discretionary {-}{}{}Dans\discretionary {-}{}{}Annee\discretionary {-}{}{}Ecoulee}{26}{subsubsection.5.11.1.4}
+\contentsline {subsubsection}{\numberline {5.11.1.5}est\discretionary {-}{}{}Date}{27}{subsubsection.5.11.1.5}
+\contentsline {subsubsection}{\numberline {5.11.1.6}est\discretionary {-}{}{}Entier\discretionary {-}{}{}Positif}{27}{subsubsection.5.11.1.6}
+\contentsline {subsubsection}{\numberline {5.11.1.7}filtrer\discretionary {-}{}{}Chaine\discretionary {-}{}{}Pour\discretionary {-}{}{}Navig}{28}{subsubsection.5.11.1.7}
+\contentsline {subsubsection}{\numberline {5.11.1.8}lire\discretionary {-}{}{}Donnee}{28}{subsubsection.5.11.1.8}
+\contentsline {subsubsection}{\numberline {5.11.1.9}lire\discretionary {-}{}{}Donnee\discretionary {-}{}{}Post}{28}{subsubsection.5.11.1.9}
+\contentsline {subsubsection}{\numberline {5.11.1.10}lire\discretionary {-}{}{}Donnee\discretionary {-}{}{}Url}{29}{subsubsection.5.11.1.10}
+\contentsline {subsubsection}{\numberline {5.11.1.11}nb\discretionary {-}{}{}Erreurs}{29}{subsubsection.5.11.1.11}
+\contentsline {subsubsection}{\numberline {5.11.1.12}obtenir\discretionary {-}{}{}Libelle\discretionary {-}{}{}Mois}{29}{subsubsection.5.11.1.12}
+\contentsline {subsubsection}{\numberline {5.11.1.13}to\discretionary {-}{}{}String\discretionary {-}{}{}Erreurs}{30}{subsubsection.5.11.1.13}
+\contentsline {subsubsection}{\numberline {5.11.1.14}verifier\discretionary {-}{}{}Entiers\discretionary {-}{}{}Positifs}{30}{subsubsection.5.11.1.14}
+\contentsline {subsubsection}{\numberline {5.11.1.15}verifier\discretionary {-}{}{}Ligne\discretionary {-}{}{}Frais\discretionary {-}{}{}H\discretionary {-}{}{}F}{30}{subsubsection.5.11.1.15}
+\contentsline {section}{\numberline {5.12}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/fct.inc.\discretionary {-}{}{}php}{31}{section.5.12}
+\contentsline {subsection}{\numberline {5.12.1}Documentation des fonctions}{31}{subsection.5.12.1}
+\contentsline {subsubsection}{\numberline {5.12.1.1}creation\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais}{31}{subsubsection.5.12.1.1}
+\contentsline {subsubsection}{\numberline {5.12.1.2}creation\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}{32}{subsubsection.5.12.1.2}
+\contentsline {subsubsection}{\numberline {5.12.1.3}creation\discretionary {-}{}{}Frais\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}{32}{subsubsection.5.12.1.3}
+\contentsline {subsubsection}{\numberline {5.12.1.4}get\discretionary {-}{}{}Dernier\discretionary {-}{}{}Mois}{33}{subsubsection.5.12.1.4}
+\contentsline {subsubsection}{\numberline {5.12.1.5}get\discretionary {-}{}{}Des\discretionary {-}{}{}Frais\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}{33}{subsubsection.5.12.1.5}
+\contentsline {subsubsection}{\numberline {5.12.1.6}get\discretionary {-}{}{}Les\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais}{33}{subsubsection.5.12.1.6}
+\contentsline {subsubsection}{\numberline {5.12.1.7}get\discretionary {-}{}{}Les\discretionary {-}{}{}Id\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}{34}{subsubsection.5.12.1.7}
+\contentsline {subsubsection}{\numberline {5.12.1.8}get\discretionary {-}{}{}Les\discretionary {-}{}{}Visiteurs}{34}{subsubsection.5.12.1.8}
+\contentsline {subsubsection}{\numberline {5.12.1.9}get\discretionary {-}{}{}Mois}{34}{subsubsection.5.12.1.9}
+\contentsline {subsubsection}{\numberline {5.12.1.10}get\discretionary {-}{}{}Mois\discretionary {-}{}{}Precedent}{35}{subsubsection.5.12.1.10}
+\contentsline {subsubsection}{\numberline {5.12.1.11}get\discretionary {-}{}{}Mois\discretionary {-}{}{}Suivant}{35}{subsubsection.5.12.1.11}
+\contentsline {subsubsection}{\numberline {5.12.1.12}maj\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}{35}{subsubsection.5.12.1.12}
+\contentsline {subsubsection}{\numberline {5.12.1.13}update\discretionary {-}{}{}Mdp\discretionary {-}{}{}Visiteur}{36}{subsubsection.5.12.1.13}
+\contentsline {section}{\numberline {5.13}R\IeC {\'e}f\IeC {\'e}rence du fichier /home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/maj\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}main.php}{36}{section.5.13}
+\contentsline {subsection}{\numberline {5.13.1}Documentation des variables}{36}{subsection.5.13.1}
+\contentsline {subsubsection}{\numberline {5.13.1.1}\$bdd}{36}{subsubsection.5.13.1.1}
+\contentsline {subsubsection}{\numberline {5.13.1.2}\$mdp}{36}{subsubsection.5.13.1.2}
+\contentsline {subsubsection}{\numberline {5.13.1.3}\$serveur}{36}{subsubsection.5.13.1.3}
+\contentsline {subsubsection}{\numberline {5.13.1.4}\$user}{36}{subsubsection.5.13.1.4}

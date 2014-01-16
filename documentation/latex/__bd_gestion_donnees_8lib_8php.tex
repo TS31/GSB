@@ -1,0 +1,587 @@
+\hypertarget{__bd_gestion_donnees_8lib_8php}{\section{Référence du fichier /home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-bd\-Gestion\-Donnees.lib.\-php}
+\label{__bd_gestion_donnees_8lib_8php}\index{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+}
+\subsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacedefault}{default}
+\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a3e03d598e990acf42577600cfe37f114}{connecter\-Serveur\-B\-D} ()
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a2a30766b0cf73bf7a75b6a14756924db}{activer\-B\-D} (\$id\-Cnx)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_aa443bd4a88ea69ec0e39ef82efd79f06}{deconnecter\-Serveur\-B\-D} (\$id\-Cnx)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598}{filtrer\-Chaine\-Pour\-B\-D} (\$str)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977}{obtenir\-Detail\-Visiteur} (\$id\-Cnx, \$un\-Id)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235}{obtenir\-Detail\-Fiche\-Frais} (\$id\-Cnx, \$un\-Mois, \$un\-Id\-Visiteur)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787}{existe\-Fiche\-Frais} (\$id\-Cnx, \$un\-Mois, \$un\-Id\-Visiteur)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383}{obtenir\-Dernier\-Mois\-Saisi} (\$id\-Cnx, \$un\-Id\-Visiteur)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96}{ajouter\-Fiche\-Frais} (\$id\-Cnx, \$un\-Mois, \$un\-Id\-Visiteur)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_af7ab441030c5c590de0b463414880a16}{obtenir\-Req\-Mois\-Fiche\-Frais} (\$un\-Id\-Visiteur)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b}{obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais} (\$un\-Mois, \$un\-Id\-Visiteur)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4}{obtenir\-Req\-Elts\-Hors\-Forfait\-Fiche\-Frais} (\$un\-Mois, \$un\-Id\-Visiteur)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_aa1a490dbef0da5c098e871f4091b910f}{supprimer\-Ligne\-H\-F} (\$id\-Cnx, \$un\-Id\-Ligne\-H\-F)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424}{ajouter\-Ligne\-H\-F} (\$id\-Cnx, \$un\-Mois, \$un\-Id\-Visiteur, \$une\-Date\-H\-F, \$un\-Libelle\-H\-F, \$un\-Montant\-H\-F)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6}{modifier\-Elts\-Forfait} (\$id\-Cnx, \$un\-Mois, \$un\-Id\-Visiteur, \$des\-Elts\-Forfait)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73}{verifier\-Infos\-Connexion} (\$id\-Cnx, \$un\-Login, \$un\-Mdp)
+\item 
+\hyperlink{__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d}{modifier\-Etat\-Fiche\-Frais} (\$id\-Cnx, \$un\-Mois, \$un\-Id\-Visiteur, \$un\-Etat)
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions}
+\hypertarget{__bd_gestion_donnees_8lib_8php_a2a30766b0cf73bf7a75b6a14756924db}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!activer\-B\-D@{activer\-B\-D}}
+\index{activer\-B\-D@{activer\-B\-D}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{activer\-B\-D}]{\setlength{\rightskip}{0pt plus 5cm}activer\-B\-D (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a2a30766b0cf73bf7a75b6a14756924db}
+Sélectionne (rend active) la base de données. Sélectionne (rend active) la B\-D prédéfinie gsb\-\_\-frais sur la connexion identifiée par \$id\-Cnx. Retourne true si succès, false sinon. 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+boolean succès ou échec de sélection B\-D 
+\end{DoxyReturn}
+
+
+Définition à la ligne 31 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!ajouter\-Fiche\-Frais@{ajouter\-Fiche\-Frais}}
+\index{ajouter\-Fiche\-Frais@{ajouter\-Fiche\-Frais}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{ajouter\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}ajouter\-Fiche\-Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96}
+Ajoute une nouvelle fiche de frais et les éléments forfaitisés associés, Ajoute la fiche de frais du mois de \$un\-Mois (M\-M\-A\-A\-A\-A) du visiteur \$id\-Visiteur, avec les éléments forfaitisés associés dont la quantité initiale est affectée à 0. Clôt éventuellement la fiche de frais précédente du visiteur. 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Mois} & mois demandé (M\-M\-A\-A\-A\-A) \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 167 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__bd_gestion_donnees_8lib_8php_a493124b80e53529be81247852b149f96_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!ajouter\-Ligne\-H\-F@{ajouter\-Ligne\-H\-F}}
+\index{ajouter\-Ligne\-H\-F@{ajouter\-Ligne\-H\-F}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{ajouter\-Ligne\-H\-F}]{\setlength{\rightskip}{0pt plus 5cm}ajouter\-Ligne\-H\-F (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur, }
+\item[{}]{\$une\-Date\-H\-F, }
+\item[{}]{\$un\-Libelle\-H\-F, }
+\item[{}]{\$un\-Montant\-H\-F}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424}
+Ajoute une nouvelle ligne hors forfait. Insère dans la B\-D la ligne hors forfait de libellé \$un\-Libelle\-H\-F du montant \$un\-Montant\-H\-F ayant eu lieu à la date \$une\-Date\-H\-F pour la fiche de frais du mois \$un\-Mois du visiteur d'id \$un\-Id\-Visiteur 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Mois} & mois demandé (A\-A\-M\-M\-M\-M) \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id du visiteur \\
+\hline
+string & {\em \$une\-Date\-H\-F} & date du frais hors forfait \\
+\hline
+string & {\em \$un\-Libelle\-H\-F} & libellé du frais hors forfait \\
+\hline
+double & {\em \$un\-Montant\-H\-F} & montant du frais hors forfait \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 278 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{__bd_gestion_donnees_8lib_8php_a004b6774c7d5f590198b8ae4ad1ab424_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a3e03d598e990acf42577600cfe37f114}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!connecter\-Serveur\-B\-D@{connecter\-Serveur\-B\-D}}
+\index{connecter\-Serveur\-B\-D@{connecter\-Serveur\-B\-D}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{connecter\-Serveur\-B\-D}]{\setlength{\rightskip}{0pt plus 5cm}connecter\-Serveur\-B\-D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a3e03d598e990acf42577600cfe37f114}
+Se connecte au serveur de données My\-Sql. Se connecte au serveur de données My\-Sql à partir de valeurs prédéfinies de connexion (hôte, compte utilisateur et mot de passe). Retourne l'identifiant de connexion si succès obtenu, le booléen false si problème de connexion. \begin{DoxyReturn}{Renvoie}
+resource identifiant de connexion 
+\end{DoxyReturn}
+
+
+Définition à la ligne 17 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_aa443bd4a88ea69ec0e39ef82efd79f06}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!deconnecter\-Serveur\-B\-D@{deconnecter\-Serveur\-B\-D}}
+\index{deconnecter\-Serveur\-B\-D@{deconnecter\-Serveur\-B\-D}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{deconnecter\-Serveur\-B\-D}]{\setlength{\rightskip}{0pt plus 5cm}deconnecter\-Serveur\-B\-D (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_aa443bd4a88ea69ec0e39ef82efd79f06}
+Ferme la connexion au serveur de données. Ferme la connexion au serveur de données identifiée par l'identifiant de connexion \$id\-Cnx. 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 47 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!existe\-Fiche\-Frais@{existe\-Fiche\-Frais}}
+\index{existe\-Fiche\-Frais@{existe\-Fiche\-Frais}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{existe\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}existe\-Fiche\-Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787}
+Vérifie si une fiche de frais existe ou non. Retourne true si la fiche de frais du mois de \$un\-Mois (M\-M\-A\-A\-A\-A) du visiteur \$id\-Visiteur existe, false sinon. 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Mois} & mois demandé (M\-M\-A\-A\-A\-A) \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+booléen existence ou non de la fiche de frais 
+\end{DoxyReturn}
+
+
+Définition à la ligne 122 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{__bd_gestion_donnees_8lib_8php_a0e6e5b420aed0486b7a9af7975739787_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!filtrer\-Chaine\-Pour\-B\-D@{filtrer\-Chaine\-Pour\-B\-D}}
+\index{filtrer\-Chaine\-Pour\-B\-D@{filtrer\-Chaine\-Pour\-B\-D}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{filtrer\-Chaine\-Pour\-B\-D}]{\setlength{\rightskip}{0pt plus 5cm}filtrer\-Chaine\-Pour\-B\-D (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598}
+Echappe les caractères spéciaux d'une chaîne. Envoie la chaîne \$str échappée, càd avec les caractères considérés spéciaux par My\-Sql (tq la quote simple) précédés d'un \textbackslash{}, ce qui annule leur effet spécial 
+\begin{DoxyParams}[1]{Paramètres}
+string & {\em \$str} & chaîne à échapper \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string chaîne échappée 
+\end{DoxyReturn}
+
+
+Définition à la ligne 58 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__bd_gestion_donnees_8lib_8php_af2cca7a3ba7b15f9cedf99333367e598_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!modifier\-Elts\-Forfait@{modifier\-Elts\-Forfait}}
+\index{modifier\-Elts\-Forfait@{modifier\-Elts\-Forfait}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{modifier\-Elts\-Forfait}]{\setlength{\rightskip}{0pt plus 5cm}modifier\-Elts\-Forfait (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur, }
+\item[{}]{\$des\-Elts\-Forfait}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6}
+Modifie les quantités des éléments forfaitisés d'une fiche de frais. Met à jour les éléments forfaitisés contenus dans \$des\-Elts\-Forfaits pour le visiteur \$un\-Id\-Visiteur et le mois \$un\-Mois dans la table Ligne\-Frais\-Forfait, après avoir filtré (annulé l'effet de certains caractères considérés comme spéciaux par My\-Sql) chaque donnée 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Mois} & mois demandé (M\-M\-A\-A\-A\-A) \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+array & {\em \$des\-Elts\-Forfait} & tableau des quantités des éléments hors forfait avec pour clés les identifiants des frais forfaitisés \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 301 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{__bd_gestion_donnees_8lib_8php_a4471713bb3f5901d94f0e18de221e7a6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!modifier\-Etat\-Fiche\-Frais@{modifier\-Etat\-Fiche\-Frais}}
+\index{modifier\-Etat\-Fiche\-Frais@{modifier\-Etat\-Fiche\-Frais}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{modifier\-Etat\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}modifier\-Etat\-Fiche\-Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur, }
+\item[{}]{\$un\-Etat}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d}
+Modifie l'état et la date de modification d'une fiche de frais
+
+Met à jour l'état de la fiche de frais du visiteur \$un\-Id\-Visiteur pour le mois \$un\-Mois à la nouvelle valeur \$un\-Etat et passe la date de modif à la date d'aujourd'hui 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & \\
+\hline
+string & {\em \$un\-Mois} & mois sous la forme aaaamm \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 348 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{__bd_gestion_donnees_8lib_8php_a6f2b26d8059c5c5ad5967b976dd0915d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!obtenir\-Dernier\-Mois\-Saisi@{obtenir\-Dernier\-Mois\-Saisi}}
+\index{obtenir\-Dernier\-Mois\-Saisi@{obtenir\-Dernier\-Mois\-Saisi}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{obtenir\-Dernier\-Mois\-Saisi}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Dernier\-Mois\-Saisi (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Id\-Visiteur}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383}
+Fournit le mois de la dernière fiche de frais d'un visiteur. Retourne le mois de la dernière fiche de frais du visiteur d'id \$un\-Id\-Visiteur. 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string dernier mois sous la forme A\-A\-A\-A\-M\-M 
+\end{DoxyReturn}
+
+
+Définition à la ligne 144 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{__bd_gestion_donnees_8lib_8php_a43c72282ff5396e3b67cc87753da4383_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!obtenir\-Detail\-Fiche\-Frais@{obtenir\-Detail\-Fiche\-Frais}}
+\index{obtenir\-Detail\-Fiche\-Frais@{obtenir\-Detail\-Fiche\-Frais}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{obtenir\-Detail\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Detail\-Fiche\-Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235}
+Fournit les informations d'une fiche de frais. Retourne les informations de la fiche de frais du mois de \$un\-Mois (M\-M\-A\-A\-A\-A) sous la forme d'un tableau associatif dont les clés sont les noms des colonnes (nb\-Justitificatifs, id\-Etat, libelle\-Etat, date\-Modif, montant\-Valide). 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Mois} & mois demandé (M\-M\-A\-A\-A\-A) \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+array tableau associatif de la fiche de frais 
+\end{DoxyReturn}
+
+
+Définition à la ligne 98 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{__bd_gestion_donnees_8lib_8php_a6119c74cdb5769c2a42bc14232cfc235_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!obtenir\-Detail\-Visiteur@{obtenir\-Detail\-Visiteur}}
+\index{obtenir\-Detail\-Visiteur@{obtenir\-Detail\-Visiteur}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{obtenir\-Detail\-Visiteur}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Detail\-Visiteur (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Id}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977}
+Fournit les informations sur un visiteur demandé. Retourne les informations du visiteur d'id \$un\-Id sous la forme d'un tableau associatif dont les clés sont les noms des colonnes(id, nom, prenom). 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Id} & id de l'utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+array tableau associatif du visiteur 
+\end{DoxyReturn}
+
+
+Définition à la ligne 76 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{__bd_gestion_donnees_8lib_8php_a3d9b6723fcf62f7ccd5658e6b9485977_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais@{obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais}}
+\index{obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais@{obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Req\-Elts\-Forfait\-Fiche\-Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b}
+Retourne le texte de la requète select concernant les éléments forfaitisés d'un visiteur pour un mois donnés.
+
+La requète de sélection fournie permettra d'obtenir l'id, le libellé et la quantité des éléments forfaitisés de la fiche de frais du visiteur d'id \$id\-Visiteur pour le mois \$mois 
+\begin{DoxyParams}[1]{Paramètres}
+string & {\em \$un\-Mois} & mois demandé (M\-M\-A\-A\-A\-A) \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string texte de la requète select 
+\end{DoxyReturn}
+
+
+Définition à la ligne 226 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__bd_gestion_donnees_8lib_8php_a8a9e576b89da1f4174e8730e2a66873b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!obtenir\-Req\-Elts\-Hors\-Forfait\-Fiche\-Frais@{obtenir\-Req\-Elts\-Hors\-Forfait\-Fiche\-Frais}}
+\index{obtenir\-Req\-Elts\-Hors\-Forfait\-Fiche\-Frais@{obtenir\-Req\-Elts\-Hors\-Forfait\-Fiche\-Frais}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{obtenir\-Req\-Elts\-Hors\-Forfait\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Req\-Elts\-Hors\-Forfait\-Fiche\-Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$un\-Mois, }
+\item[{}]{\$un\-Id\-Visiteur}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4}
+Retourne le texte de la requète select concernant les éléments hors forfait d'un visiteur pour un mois donnés.
+
+La requète de sélection fournie permettra d'obtenir l'id, la date, le libellé et le montant des éléments hors forfait de la fiche de frais du visiteur d'id \$id\-Visiteur pour le mois \$mois 
+\begin{DoxyParams}[1]{Paramètres}
+string & {\em \$un\-Mois} & mois demandé (M\-M\-A\-A\-A\-A) \\
+\hline
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string texte de la requète select 
+\end{DoxyReturn}
+
+
+Définition à la ligne 245 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__bd_gestion_donnees_8lib_8php_a0c288b49f3dac1ab111e800f2794aac4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_af7ab441030c5c590de0b463414880a16}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!obtenir\-Req\-Mois\-Fiche\-Frais@{obtenir\-Req\-Mois\-Fiche\-Frais}}
+\index{obtenir\-Req\-Mois\-Fiche\-Frais@{obtenir\-Req\-Mois\-Fiche\-Frais}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{obtenir\-Req\-Mois\-Fiche\-Frais}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Req\-Mois\-Fiche\-Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$un\-Id\-Visiteur}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_af7ab441030c5c590de0b463414880a16}
+Retourne le texte de la requète select concernant les mois pour lesquels un visiteur a une fiche de frais.
+
+La requète de sélection fournie permettra d'obtenir les mois (A\-A\-A\-A\-M\-M) pour lesquels le visiteur \$un\-Id\-Visiteur a une fiche de frais. 
+\begin{DoxyParams}[1]{Paramètres}
+string & {\em \$un\-Id\-Visiteur} & id visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string texte de la requète select 
+\end{DoxyReturn}
+
+
+Définition à la ligne 209 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_aa1a490dbef0da5c098e871f4091b910f}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!supprimer\-Ligne\-H\-F@{supprimer\-Ligne\-H\-F}}
+\index{supprimer\-Ligne\-H\-F@{supprimer\-Ligne\-H\-F}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{supprimer\-Ligne\-H\-F}]{\setlength{\rightskip}{0pt plus 5cm}supprimer\-Ligne\-H\-F (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Id\-Ligne\-H\-F}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_aa1a490dbef0da5c098e871f4091b910f}
+Supprime une ligne hors forfait. Supprime dans la B\-D la ligne hors forfait d'id \$un\-Id\-Ligne\-H\-F 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$id\-Ligne\-H\-F} & id de la ligne hors forfait \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 260 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+\hypertarget{__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73}{\index{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}!verifier\-Infos\-Connexion@{verifier\-Infos\-Connexion}}
+\index{verifier\-Infos\-Connexion@{verifier\-Infos\-Connexion}!_bdGestionDonnees.lib.php@{\-\_\-bd\-Gestion\-Donnees.\-lib.\-php}}
+\subsubsection[{verifier\-Infos\-Connexion}]{\setlength{\rightskip}{0pt plus 5cm}verifier\-Infos\-Connexion (
+\begin{DoxyParamCaption}
+\item[{}]{\$id\-Cnx, }
+\item[{}]{\$un\-Login, }
+\item[{}]{\$un\-Mdp}
+\end{DoxyParamCaption}
+)}}\label{__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73}
+Contrôle les informations de connexionn d'un utilisateur. Vérifie si les informations de connexion \$un\-Login, \$un\-Mdp sont ou non valides. Retourne les informations de l'utilisateur sous forme de tableau associatif dont les clés sont les noms des colonnes (id, nom, prenom, login, mdp) si login et mot de passe existent, le booléen false sinon. 
+\begin{DoxyParams}[1]{Paramètres}
+resource & {\em \$id\-Cnx} & identifiant de connexion \\
+\hline
+string & {\em \$un\-Login} & login \\
+\hline
+string & {\em \$un\-Mdp} & mot de passe \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+array tableau associatif ou booléen false 
+\end{DoxyReturn}
+
+
+Définition à la ligne 323 du fichier \-\_\-bd\-Gestion\-Donnees.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{__bd_gestion_donnees_8lib_8php_a67ac93fb32572194c13d3d2dca86af73_cgraph}
+\end{center}
+\end{figure}
+
+

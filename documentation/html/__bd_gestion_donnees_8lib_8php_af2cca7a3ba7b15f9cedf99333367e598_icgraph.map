@@ -1,0 +1,11 @@
+<map id="filtrerChainePourBD" name="filtrerChainePourBD">
+<area shape="rect" id="node3" href="$__bd_gestion_donnees_8lib_8php.html#a3d9b6723fcf62f7ccd5658e6b9485977" title="obtenirDetailVisiteur" alt="" coords="212,5,351,35"/>
+<area shape="rect" id="node5" href="$__bd_gestion_donnees_8lib_8php.html#a6119c74cdb5769c2a42bc14232cfc235" title="obtenirDetailFicheFrais" alt="" coords="204,59,359,88"/>
+<area shape="rect" id="node7" href="$__bd_gestion_donnees_8lib_8php.html#a493124b80e53529be81247852b149f96" title="ajouterFicheFrais" alt="" coords="419,85,541,115"/>
+<area shape="rect" id="node9" href="$__bd_gestion_donnees_8lib_8php.html#a0e6e5b420aed0486b7a9af7975739787" title="existeFicheFrais" alt="" coords="223,163,340,192"/>
+<area shape="rect" id="node12" href="$__bd_gestion_donnees_8lib_8php.html#a8a9e576b89da1f4174e8730e2a66873b" title="obtenirReqEltsForfaitFiche\lFrais" alt="" coords="193,215,369,262"/>
+<area shape="rect" id="node14" href="$__bd_gestion_donnees_8lib_8php.html#a0c288b49f3dac1ab111e800f2794aac4" title="obtenirReqEltsHorsForfait\lFicheFrais" alt="" coords="195,285,368,331"/>
+<area shape="rect" id="node16" href="$__bd_gestion_donnees_8lib_8php.html#a004b6774c7d5f590198b8ae4ad1ab424" title="ajouterLigneHF" alt="" coords="227,355,336,384"/>
+<area shape="rect" id="node18" href="$__bd_gestion_donnees_8lib_8php.html#a4471713bb3f5901d94f0e18de221e7a6" title="modifierEltsForfait" alt="" coords="217,408,345,437"/>
+<area shape="rect" id="node20" href="$__bd_gestion_donnees_8lib_8php.html#a67ac93fb32572194c13d3d2dca86af73" title="verifierInfosConnexion" alt="" coords="205,461,357,491"/>
+</map>

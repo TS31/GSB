@@ -1,0 +1,6 @@
+<map id="ajouterFicheFrais" name="ajouterFicheFrais">
+<area shape="rect" id="node3" href="$__bd_gestion_donnees_8lib_8php.html#af2cca7a3ba7b15f9cedf99333367e598" title="filtrerChainePourBD" alt="" coords="384,27,523,56"/>
+<area shape="rect" id="node5" href="$__bd_gestion_donnees_8lib_8php.html#a43c72282ff5396e3b67cc87753da4383" title="obtenirDernierMoisSaisi" alt="" coords="176,26,336,55"/>
+<area shape="rect" id="node7" href="$__bd_gestion_donnees_8lib_8php.html#a6119c74cdb5769c2a42bc14232cfc235" title="obtenirDetailFicheFrais" alt="" coords="179,79,333,108"/>
+<area shape="rect" id="node10" href="$__bd_gestion_donnees_8lib_8php.html#a6f2b26d8059c5c5ad5967b976dd0915d" title="modifierEtatFicheFrais" alt="" coords="180,132,332,162"/>
+</map>

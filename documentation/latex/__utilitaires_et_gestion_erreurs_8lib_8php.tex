@@ -1,0 +1,486 @@
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php}{\section{Référence du fichier /home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-utilitaires\-Et\-Gestion\-Erreurs.lib.\-php}
+\label{__utilitaires_et_gestion_erreurs_8lib_8php}\index{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+}
+\subsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacedefault}{default}
+\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a991bef919e2c370187e9d7eec29f8f50}{obtenir\-Libelle\-Mois} (\$un\-No\-Mois)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a4f7821728a7b40482111da18fc60603f}{est\-Date} (\$date)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a39cb4860d4761f8107a63bac07db4102}{convertir\-Date\-Francais\-Vers\-Anglais} (\$date)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ace9e1c93b7ce32b3ab1aa8f86e033e78}{convertir\-Date\-Anglais\-Vers\-Francais} (\$date)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a092454f070d08318790e482128089483}{est\-Dans\-Annee\-Ecoulee} (\$date)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a5891ac42bd25b5bb5a9427174f8eb15f}{est\-Entier\-Positif} (\$valeur)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a3457b44782886f81a118ee6ae62f9568}{verifier\-Entiers\-Positifs} (\$les\-Valeurs)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ad3618b973b51810a2eb97a0493ade9ee}{lire\-Donnee\-Url} (\$nom\-Donnee, \$val\-Defaut=\char`\"{}\char`\"{})
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab0070fc1ef4283caa3457dd5b71a86de}{lire\-Donnee\-Post} (\$nom\-Donnee, \$val\-Defaut=\char`\"{}\char`\"{})
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}{lire\-Donnee} (\$nom\-Donnee, \$val\-Defaut=\char`\"{}\char`\"{})
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a6958994232c9af063f867d133a044ab5}{ajouter\-Erreur} (\&\$tab\-Err, \$msg)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a61c228522012792b81b2931ef1ae32ce}{nb\-Erreurs} (\$tab\-Err)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_a2ff214e84108237a421875ab1ab3f7fa}{to\-String\-Erreurs} (\$tab\-Err)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ad19609774a0abdc797f46e59df5aa55f}{filtrer\-Chaine\-Pour\-Navig} (\$str)
+\item 
+\hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_add1850973a586302c7fab9e20bd1dd25}{verifier\-Ligne\-Frais\-H\-F} (\$date, \$libelle, \$montant, \&\$tab\-Errs)
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions}
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a6958994232c9af063f867d133a044ab5}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!ajouter\-Erreur@{ajouter\-Erreur}}
+\index{ajouter\-Erreur@{ajouter\-Erreur}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{ajouter\-Erreur}]{\setlength{\rightskip}{0pt plus 5cm}ajouter\-Erreur (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$tab\-Err, }
+\item[{}]{\$msg}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a6958994232c9af063f867d133a044ab5}
+Ajoute un message dans le tableau des messages d'erreurs.
+
+Ajoute le message \$msg en fin de tableau \$tab\-Err. Ce tableau est passé par référence afin que les modifications sur ce tableau soient visibles de l'appelant. 
+\begin{DoxyParams}[1]{Paramètres}
+array & {\em \$tab\-Err} & \\
+\hline
+ & {\em string} & message \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 191 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a6958994232c9af063f867d133a044ab5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_ace9e1c93b7ce32b3ab1aa8f86e033e78}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!convertir\-Date\-Anglais\-Vers\-Francais@{convertir\-Date\-Anglais\-Vers\-Francais}}
+\index{convertir\-Date\-Anglais\-Vers\-Francais@{convertir\-Date\-Anglais\-Vers\-Francais}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{convertir\-Date\-Anglais\-Vers\-Francais}]{\setlength{\rightskip}{0pt plus 5cm}convertir\-Date\-Anglais\-Vers\-Francais (
+\begin{DoxyParamCaption}
+\item[{}]{\$date}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_ace9e1c93b7ce32b3ab1aa8f86e033e78}
+Transforme une date au format format anglais aaaa-\/mm-\/jj vers le format français jj/mm/aaaa 
+\begin{DoxyParams}{Paramètres}
+{\em \$date} & au format aaaa-\/mm-\/jj \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string la date au format format français jj/mm/aaaa 
+\end{DoxyReturn}
+
+
+Définition à la ligne 67 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a39cb4860d4761f8107a63bac07db4102}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!convertir\-Date\-Francais\-Vers\-Anglais@{convertir\-Date\-Francais\-Vers\-Anglais}}
+\index{convertir\-Date\-Francais\-Vers\-Anglais@{convertir\-Date\-Francais\-Vers\-Anglais}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{convertir\-Date\-Francais\-Vers\-Anglais}]{\setlength{\rightskip}{0pt plus 5cm}convertir\-Date\-Francais\-Vers\-Anglais (
+\begin{DoxyParamCaption}
+\item[{}]{\$date}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a39cb4860d4761f8107a63bac07db4102}
+Transforme une date au format français jj/mm/aaaa vers le format anglais aaaa-\/mm-\/jj 
+\begin{DoxyParams}{Paramètres}
+{\em \$date} & au format jj/mm/aaaa \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string la date au format anglais aaaa-\/mm-\/jj 
+\end{DoxyReturn}
+
+
+Définition à la ligne 56 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a39cb4860d4761f8107a63bac07db4102_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a092454f070d08318790e482128089483}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!est\-Dans\-Annee\-Ecoulee@{est\-Dans\-Annee\-Ecoulee}}
+\index{est\-Dans\-Annee\-Ecoulee@{est\-Dans\-Annee\-Ecoulee}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{est\-Dans\-Annee\-Ecoulee}]{\setlength{\rightskip}{0pt plus 5cm}est\-Dans\-Annee\-Ecoulee (
+\begin{DoxyParamCaption}
+\item[{}]{\$date}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a092454f070d08318790e482128089483}
+Indique si une date est incluse ou non dans l'année écoulée.
+
+Retourne true si la date \$date est comprise entre la date du jour moins un an et la la date du jour. False sinon. 
+\begin{DoxyParams}{Paramètres}
+{\em \$date} & date au format jj/mm/aaaa \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+boolean succès ou échec 
+\end{DoxyReturn}
+
+
+Définition à la ligne 80 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a092454f070d08318790e482128089483_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a092454f070d08318790e482128089483_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a4f7821728a7b40482111da18fc60603f}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!est\-Date@{est\-Date}}
+\index{est\-Date@{est\-Date}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{est\-Date}]{\setlength{\rightskip}{0pt plus 5cm}est\-Date (
+\begin{DoxyParamCaption}
+\item[{}]{\$date}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a4f7821728a7b40482111da18fc60603f}
+Vérifie si une chaîne fournie est bien une date valide, au format J\-J/\-M\-M/\-A\-A\-A\-A.
+
+Retrourne true si la chaîne \$date est une date valide, au format J\-J/\-M\-M/\-A\-A\-A\-A, false sinon. 
+\begin{DoxyParams}{Paramètres}
+{\em string} & date à vérifier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+boolean succès ou échec 
+\end{DoxyReturn}
+
+
+Définition à la ligne 34 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a4f7821728a7b40482111da18fc60603f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a4f7821728a7b40482111da18fc60603f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a5891ac42bd25b5bb5a9427174f8eb15f}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!est\-Entier\-Positif@{est\-Entier\-Positif}}
+\index{est\-Entier\-Positif@{est\-Entier\-Positif}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{est\-Entier\-Positif}]{\setlength{\rightskip}{0pt plus 5cm}est\-Entier\-Positif (
+\begin{DoxyParamCaption}
+\item[{}]{\$valeur}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a5891ac42bd25b5bb5a9427174f8eb15f}
+Vérifie si une chaîne fournie est bien numérique entière positive.
+
+Retrourne true si la valeur transmise \$valeur ne contient pas d'autres caractères que des chiffres, false sinon. 
+\begin{DoxyParams}{Paramètres}
+{\em string} & chaîne à vérifier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+boolean succès ou échec 
+\end{DoxyReturn}
+
+
+Définition à la ligne 95 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a5891ac42bd25b5bb5a9427174f8eb15f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_ad19609774a0abdc797f46e59df5aa55f}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!filtrer\-Chaine\-Pour\-Navig@{filtrer\-Chaine\-Pour\-Navig}}
+\index{filtrer\-Chaine\-Pour\-Navig@{filtrer\-Chaine\-Pour\-Navig}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{filtrer\-Chaine\-Pour\-Navig}]{\setlength{\rightskip}{0pt plus 5cm}filtrer\-Chaine\-Pour\-Navig (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_ad19609774a0abdc797f46e59df5aa55f}
+Echappe les caractères considérés spéciaux en H\-T\-M\-L par les entités H\-T\-M\-L correspondantes.
+
+Renvoie une copie de la chaîne \$str à laquelle les caractères considérés spéciaux en H\-T\-M\-L (tq la quote simple, le guillemet double, les chevrons), auront été remplacés par les entités H\-T\-M\-L correspondantes. 
+\begin{DoxyParams}[1]{Paramètres}
+string & {\em \$str} & chaîne à échapper \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string chaîne échappée 
+\end{DoxyReturn}
+
+
+Définition à la ligne 234 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!lire\-Donnee@{lire\-Donnee}}
+\index{lire\-Donnee@{lire\-Donnee}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{lire\-Donnee}]{\setlength{\rightskip}{0pt plus 5cm}lire\-Donnee (
+\begin{DoxyParamCaption}
+\item[{}]{\$nom\-Donnee, }
+\item[{}]{\$val\-Defaut = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_ab4e61487d300e37e058c1fd31c0446a9}
+Fournit la valeur d'une donnée transmise par la méthode get (url) ou post (corps de la requête H\-T\-T\-P).
+
+Retourne la valeur de la donnée portant le nom \$nom\-Donnee reçue dans l'url ou corps de requête, \$val\-Defaut si aucune donnée de nom \$nom\-Donnee ni dans l'url, ni dans corps. Si le même nom a été transmis à la fois dans l'url et le corps de la requête, c'est la valeur transmise par l'url qui est retournée. 
+\begin{DoxyParams}{Paramètres}
+{\em string} & nom de la donnée \\
+\hline
+{\em string} & valeur par défaut \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string valeur de la donnée 
+\end{DoxyReturn}
+
+
+Définition à la ligne 169 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_ab0070fc1ef4283caa3457dd5b71a86de}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!lire\-Donnee\-Post@{lire\-Donnee\-Post}}
+\index{lire\-Donnee\-Post@{lire\-Donnee\-Post}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{lire\-Donnee\-Post}]{\setlength{\rightskip}{0pt plus 5cm}lire\-Donnee\-Post (
+\begin{DoxyParamCaption}
+\item[{}]{\$nom\-Donnee, }
+\item[{}]{\$val\-Defaut = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_ab0070fc1ef4283caa3457dd5b71a86de}
+Fournit la valeur d'une donnée transmise par la méthode post (corps de la requête H\-T\-T\-P).
+
+Retourne la valeur de la donnée portant le nom \$nom\-Donnee reçue dans le corps de la requête http, \$val\-Defaut si aucune donnée de nom \$nom\-Donnee dans le corps de requête 
+\begin{DoxyParams}{Paramètres}
+{\em string} & nom de la donnée \\
+\hline
+{\em string} & valeur par défaut \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string valeur de la donnée 
+\end{DoxyReturn}
+
+
+Définition à la ligne 146 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_ad3618b973b51810a2eb97a0493ade9ee}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!lire\-Donnee\-Url@{lire\-Donnee\-Url}}
+\index{lire\-Donnee\-Url@{lire\-Donnee\-Url}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{lire\-Donnee\-Url}]{\setlength{\rightskip}{0pt plus 5cm}lire\-Donnee\-Url (
+\begin{DoxyParamCaption}
+\item[{}]{\$nom\-Donnee, }
+\item[{}]{\$val\-Defaut = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_ad3618b973b51810a2eb97a0493ade9ee}
+Fournit la valeur d'une donnée transmise par la méthode get (url).
+
+Retourne la valeur de la donnée portant le nom \$nom\-Donnee reçue dans l'url, \$val\-Defaut si aucune donnée de nom \$nom\-Donnee dans l'url 
+\begin{DoxyParams}{Paramètres}
+{\em string} & nom de la donnée \\
+\hline
+{\em string} & valeur par défaut \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string valeur de la donnée 
+\end{DoxyReturn}
+
+
+Définition à la ligne 126 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a61c228522012792b81b2931ef1ae32ce}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!nb\-Erreurs@{nb\-Erreurs}}
+\index{nb\-Erreurs@{nb\-Erreurs}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{nb\-Erreurs}]{\setlength{\rightskip}{0pt plus 5cm}nb\-Erreurs (
+\begin{DoxyParamCaption}
+\item[{}]{\$tab\-Err}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a61c228522012792b81b2931ef1ae32ce}
+Retourne le nombre de messages d'erreurs enregistrés.
+
+Retourne le nombre de messages d'erreurs enregistrés dans le tableau \$tab\-Err. 
+\begin{DoxyParams}[1]{Paramètres}
+array & {\em \$tab\-Err} & tableau des messages d'erreurs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+int nombre de messages d'erreurs 
+\end{DoxyReturn}
+
+
+Définition à la ligne 202 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a991bef919e2c370187e9d7eec29f8f50}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!obtenir\-Libelle\-Mois@{obtenir\-Libelle\-Mois}}
+\index{obtenir\-Libelle\-Mois@{obtenir\-Libelle\-Mois}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{obtenir\-Libelle\-Mois}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Libelle\-Mois (
+\begin{DoxyParamCaption}
+\item[{}]{\$un\-No\-Mois}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a991bef919e2c370187e9d7eec29f8f50}
+Fournit le libellé en français correspondant à un numéro de mois.
+
+Fournit le libellé français du mois de numéro \$un\-No\-Mois. Retourne une chaîne vide si le numéro n'est pas compris dans l'intervalle \mbox{[}1,12\mbox{]}. 
+\begin{DoxyParams}{Paramètres}
+{\em int} & numéro de mois \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string identifiant de connexion 
+\end{DoxyReturn}
+
+
+Définition à la ligne 16 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a2ff214e84108237a421875ab1ab3f7fa}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!to\-String\-Erreurs@{to\-String\-Erreurs}}
+\index{to\-String\-Erreurs@{to\-String\-Erreurs}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{to\-String\-Erreurs}]{\setlength{\rightskip}{0pt plus 5cm}to\-String\-Erreurs (
+\begin{DoxyParamCaption}
+\item[{}]{\$tab\-Err}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a2ff214e84108237a421875ab1ab3f7fa}
+Fournit les messages d'erreurs sous forme d'une liste à puces H\-T\-M\-L.
+
+Retourne le source H\-T\-M\-L, division contenant une liste à puces, d'après les messages d'erreurs contenus dans le tableau des messages d'erreurs \$tab\-Err. 
+\begin{DoxyParams}[1]{Paramètres}
+array & {\em \$tab\-Err} & tableau des messages d'erreurs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+string source html 
+\end{DoxyReturn}
+
+
+Définition à la ligne 214 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_a3457b44782886f81a118ee6ae62f9568}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!verifier\-Entiers\-Positifs@{verifier\-Entiers\-Positifs}}
+\index{verifier\-Entiers\-Positifs@{verifier\-Entiers\-Positifs}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{verifier\-Entiers\-Positifs}]{\setlength{\rightskip}{0pt plus 5cm}verifier\-Entiers\-Positifs (
+\begin{DoxyParamCaption}
+\item[{}]{\$les\-Valeurs}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_a3457b44782886f81a118ee6ae62f9568}
+Vérifie que chaque valeur est bien renseignée et numérique entière positive.
+
+Renvoie la valeur booléenne true si toutes les valeurs sont bien renseignées et numériques entières positives. False si l'une d'elles ne l'est pas. 
+\begin{DoxyParams}[1]{Paramètres}
+array & {\em \$les\-Valeurs} & tableau des valeurs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+booléen succès ou échec 
+\end{DoxyReturn}
+
+
+Définition à la ligne 107 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a3457b44782886f81a118ee6ae62f9568_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__utilitaires_et_gestion_erreurs_8lib_8php_a3457b44782886f81a118ee6ae62f9568_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{__utilitaires_et_gestion_erreurs_8lib_8php_add1850973a586302c7fab9e20bd1dd25}{\index{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}!verifier\-Ligne\-Frais\-H\-F@{verifier\-Ligne\-Frais\-H\-F}}
+\index{verifier\-Ligne\-Frais\-H\-F@{verifier\-Ligne\-Frais\-H\-F}!_utilitairesEtGestionErreurs.lib.php@{\-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php}}
+\subsubsection[{verifier\-Ligne\-Frais\-H\-F}]{\setlength{\rightskip}{0pt plus 5cm}verifier\-Ligne\-Frais\-H\-F (
+\begin{DoxyParamCaption}
+\item[{}]{\$date, }
+\item[{}]{\$libelle, }
+\item[{}]{\$montant, }
+\item[{\&}]{\$tab\-Errs}
+\end{DoxyParamCaption}
+)}}\label{__utilitaires_et_gestion_erreurs_8lib_8php_add1850973a586302c7fab9e20bd1dd25}
+Vérifie la validité des données d'une ligne de frais hors forfait.
+
+Renseigne le tableau des messages d'erreurs d'après les erreurs rencontrées sur chaque donnée d'une ligne de frais hors forfait \-: vérifie que chaque donnée est bien renseignée, le montant est numérique positif, la date valide et dans l'année écoulée. 
+\begin{DoxyParams}[1]{Paramètres}
+array & {\em \$date} & date d'engagement de la ligne de frais H\-F \\
+\hline
+array & {\em \$libelle} & libellé de la ligne de frais H\-F \\
+\hline
+array & {\em \$montant} & montant de la ligne de frais H\-F \\
+\hline
+array & {\em \$tab\-Errs} & tableau des messages d'erreurs passé par référence \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 251 du fichier \-\_\-utilitaires\-Et\-Gestion\-Erreurs.\-lib.\-php.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{__utilitaires_et_gestion_erreurs_8lib_8php_add1850973a586302c7fab9e20bd1dd25_cgraph}
+\end{center}
+\end{figure}
+
+

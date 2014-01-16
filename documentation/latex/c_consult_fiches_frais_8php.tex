@@ -1,0 +1,78 @@
+\hypertarget{c_consult_fiches_frais_8php}{\section{Référence du fichier /home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/c\-Consult\-Fiches\-Frais.php}
+\label{c_consult_fiches_frais_8php}\index{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/c\-Consult\-Fiches\-Frais.\-php@{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/c\-Consult\-Fiches\-Frais.\-php}}
+}
+\subsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacedefault}{default}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{c_consult_fiches_frais_8php_aad2a80747c2de66b59cb18d493ae7a8b}{\$rep\-Include} = './include/'
+\item 
+\hyperlink{c_consult_fiches_frais_8php_a12d9ecce0abd3757dd699cc19040e747}{if} (!\hyperlink{__gestion_session_8lib_8php_afe911e51f16958708b8b700981cd2567}{est\-Visiteur\-Connecte}())
+\item 
+\hyperlink{c_consult_fiches_frais_8php_aca0267343316d569312879584a4db9dd}{\$mois\-Saisi} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab0070fc1ef4283caa3457dd5b71a86de}{lire\-Donnee\-Post}(\char`\"{}lst\-Mois\char`\"{}, \char`\"{}\char`\"{})
+\item 
+\hyperlink{c_consult_fiches_frais_8php_a5c1bc42ba293d577d9e25d76e50f85ec}{\$etape} = \hyperlink{__utilitaires_et_gestion_erreurs_8lib_8php_ab0070fc1ef4283caa3457dd5b71a86de}{lire\-Donnee\-Post}(\char`\"{}etape\char`\"{},\char`\"{}\char`\"{})
+\item 
+\hyperlink{c_se_connecter_8php_a161e098d41499c163a94c3fa5cd0e698}{if}(\$etape!=\char`\"{}demander\-Consult\char`\"{}\&\&\$etape!=\char`\"{}valider\-Consult\char`\"{}) \\*
+if(\$etape==\char`\"{}valider\-Consult\char`\"{}) \hyperlink{c_consult_fiches_frais_8php_aa8307f98fa28d7f64c9762e7986440b6}{\$req} = \hyperlink{__bd_gestion_donnees_8lib_8php_af7ab441030c5c590de0b463414880a16}{obtenir\-Req\-Mois\-Fiche\-Frais}(\hyperlink{__gestion_session_8lib_8php_a7af627b049f30bda0af2678c3327aff0}{obtenir\-Id\-User\-Connecte}())
+\item 
+\hyperlink{c_consult_fiches_frais_8php_ae3f221921bd93ca690a99b756043483c}{\$id\-Jeu\-Mois} = mysql\-\_\-query(\$req, \$id\-Connexion)
+\item 
+\hyperlink{c_consult_fiches_frais_8php_ad97348117c6ea6767b8494f27a153a0f}{\$lg\-Mois} = mysql\-\_\-fetch\-\_\-assoc(\$id\-Jeu\-Mois)
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des variables}
+\hypertarget{c_consult_fiches_frais_8php_a5c1bc42ba293d577d9e25d76e50f85ec}{\index{c\-Consult\-Fiches\-Frais.\-php@{c\-Consult\-Fiches\-Frais.\-php}!\$etape@{\$etape}}
+\index{\$etape@{\$etape}!cConsultFichesFrais.php@{c\-Consult\-Fiches\-Frais.\-php}}
+\subsubsection[{\$etape}]{\setlength{\rightskip}{0pt plus 5cm}\$etape = {\bf lire\-Donnee\-Post}(\char`\"{}etape\char`\"{},\char`\"{}\char`\"{})}}\label{c_consult_fiches_frais_8php_a5c1bc42ba293d577d9e25d76e50f85ec}
+
+
+Définition à la ligne 19 du fichier c\-Consult\-Fiches\-Frais.\-php.
+
+\hypertarget{c_consult_fiches_frais_8php_ae3f221921bd93ca690a99b756043483c}{\index{c\-Consult\-Fiches\-Frais.\-php@{c\-Consult\-Fiches\-Frais.\-php}!\$id\-Jeu\-Mois@{\$id\-Jeu\-Mois}}
+\index{\$id\-Jeu\-Mois@{\$id\-Jeu\-Mois}!cConsultFichesFrais.php@{c\-Consult\-Fiches\-Frais.\-php}}
+\subsubsection[{\$id\-Jeu\-Mois}]{\setlength{\rightskip}{0pt plus 5cm}\$id\-Jeu\-Mois = mysql\-\_\-query(\$req, \$id\-Connexion)}}\label{c_consult_fiches_frais_8php_ae3f221921bd93ca690a99b756043483c}
+
+
+Définition à la ligne 52 du fichier c\-Consult\-Fiches\-Frais.\-php.
+
+\hypertarget{c_consult_fiches_frais_8php_ad97348117c6ea6767b8494f27a153a0f}{\index{c\-Consult\-Fiches\-Frais.\-php@{c\-Consult\-Fiches\-Frais.\-php}!\$lg\-Mois@{\$lg\-Mois}}
+\index{\$lg\-Mois@{\$lg\-Mois}!cConsultFichesFrais.php@{c\-Consult\-Fiches\-Frais.\-php}}
+\subsubsection[{\$lg\-Mois}]{\setlength{\rightskip}{0pt plus 5cm}\$lg\-Mois = mysql\-\_\-fetch\-\_\-assoc(\$id\-Jeu\-Mois)}}\label{c_consult_fiches_frais_8php_ad97348117c6ea6767b8494f27a153a0f}
+
+
+Définition à la ligne 53 du fichier c\-Consult\-Fiches\-Frais.\-php.
+
+\hypertarget{c_consult_fiches_frais_8php_aca0267343316d569312879584a4db9dd}{\index{c\-Consult\-Fiches\-Frais.\-php@{c\-Consult\-Fiches\-Frais.\-php}!\$mois\-Saisi@{\$mois\-Saisi}}
+\index{\$mois\-Saisi@{\$mois\-Saisi}!cConsultFichesFrais.php@{c\-Consult\-Fiches\-Frais.\-php}}
+\subsubsection[{\$mois\-Saisi}]{\setlength{\rightskip}{0pt plus 5cm}\$mois\-Saisi = {\bf lire\-Donnee\-Post}(\char`\"{}lst\-Mois\char`\"{}, \char`\"{}\char`\"{})}}\label{c_consult_fiches_frais_8php_aca0267343316d569312879584a4db9dd}
+
+
+Définition à la ligne 18 du fichier c\-Consult\-Fiches\-Frais.\-php.
+
+\hypertarget{c_consult_fiches_frais_8php_aad2a80747c2de66b59cb18d493ae7a8b}{\index{c\-Consult\-Fiches\-Frais.\-php@{c\-Consult\-Fiches\-Frais.\-php}!\$rep\-Include@{\$rep\-Include}}
+\index{\$rep\-Include@{\$rep\-Include}!cConsultFichesFrais.php@{c\-Consult\-Fiches\-Frais.\-php}}
+\subsubsection[{\$rep\-Include}]{\setlength{\rightskip}{0pt plus 5cm}\$rep\-Include = './include/'}}\label{c_consult_fiches_frais_8php_aad2a80747c2de66b59cb18d493ae7a8b}
+
+
+Définition à la ligne 7 du fichier c\-Consult\-Fiches\-Frais.\-php.
+
+\hypertarget{c_consult_fiches_frais_8php_aa8307f98fa28d7f64c9762e7986440b6}{\index{c\-Consult\-Fiches\-Frais.\-php@{c\-Consult\-Fiches\-Frais.\-php}!\$req@{\$req}}
+\index{\$req@{\$req}!cConsultFichesFrais.php@{c\-Consult\-Fiches\-Frais.\-php}}
+\subsubsection[{\$req}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (\$etape!=\char`\"{}demander\-Consult\char`\"{}\&\&\$etape!=\char`\"{}valider\-Consult\char`\"{}) if (\$etape==\char`\"{}valider\-Consult\char`\"{}) \$req = {\bf obtenir\-Req\-Mois\-Fiche\-Frais}({\bf obtenir\-Id\-User\-Connecte}())}}\label{c_consult_fiches_frais_8php_aa8307f98fa28d7f64c9762e7986440b6}
+
+
+Définition à la ligne 51 du fichier c\-Consult\-Fiches\-Frais.\-php.
+
+\hypertarget{c_consult_fiches_frais_8php_a12d9ecce0abd3757dd699cc19040e747}{\index{c\-Consult\-Fiches\-Frais.\-php@{c\-Consult\-Fiches\-Frais.\-php}!if@{if}}
+\index{if@{if}!cConsultFichesFrais.php@{c\-Consult\-Fiches\-Frais.\-php}}
+\subsubsection[{if}]{\setlength{\rightskip}{0pt plus 5cm}if(\$etape==\char`\"{}valider\-Consult\char`\"{})}}\label{c_consult_fiches_frais_8php_a12d9ecce0abd3757dd699cc19040e747}
+
+
+Définition à la ligne 11 du fichier c\-Consult\-Fiches\-Frais.\-php.
+

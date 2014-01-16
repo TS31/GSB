@@ -1,0 +1,451 @@
+\begin{theindex}
+
+  \item {/home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/c\discretionary {-}{}{}Accueil.\discretionary {-}{}{}php}, 
+		\hyperpage{9}
+  \item {/home/trackoen/\discretionary {-}{}{}P\discretionary {-}{}{}H\discretionary {-}{}{}P\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}J\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T/\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Appli/include/fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{31}
+  \item {\$bdd}
+    \subitem {maj\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}main.\discretionary {-}{}{}php}, 
+		\hyperpage{36}
+  \item {\$date\discretionary {-}{}{}H\discretionary {-}{}{}F}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$demande\discretionary {-}{}{}Deconnexion}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}init.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{24}
+  \item {\$etape}
+    \subitem {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{10}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+    \subitem {c\discretionary {-}{}{}Se\discretionary {-}{}{}Connecter.\discretionary {-}{}{}php}, 
+		\hyperpage{12}
+  \item {\$existe\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$id\discretionary {-}{}{}Connexion}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}init.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{24}
+  \item {\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Elts\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Elts\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Mois}
+    \subitem {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{10}
+  \item {\$id\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$lg\discretionary {-}{}{}Elt\discretionary {-}{}{}Forfait}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$lg\discretionary {-}{}{}Elt\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$lg\discretionary {-}{}{}Mois}
+    \subitem {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{10}
+  \item {\$libelle\discretionary {-}{}{}H\discretionary {-}{}{}F}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$mdp}
+    \subitem {maj\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}main.\discretionary {-}{}{}php}, 
+		\hyperpage{36}
+  \item {\$mois}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$mois\discretionary {-}{}{}Saisi}
+    \subitem {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{10}
+  \item {\$montant\discretionary {-}{}{}H\discretionary {-}{}{}F}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+  \item {\$rep\discretionary {-}{}{}Include}
+    \subitem {c\discretionary {-}{}{}Accueil.\discretionary {-}{}{}php}, 
+		\hyperpage{9}
+    \subitem {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{10}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{11}
+    \subitem {c\discretionary {-}{}{}Se\discretionary {-}{}{}Connecter.\discretionary {-}{}{}php}, 
+		\hyperpage{12}
+    \subitem {c\discretionary {-}{}{}Se\discretionary {-}{}{}Deconnecter.\discretionary {-}{}{}php}, 
+		\hyperpage{13}
+  \item {\$req}
+    \subitem {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{10}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{12}
+  \item {\$serveur}
+    \subitem {maj\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}main.\discretionary {-}{}{}php}, 
+		\hyperpage{36}
+  \item {\$tab\discretionary {-}{}{}Erreurs}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}init.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{24}
+  \item {\$tab\discretionary {-}{}{}Qte\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{12}
+  \item {\$user}
+    \subitem {maj\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}main.\discretionary {-}{}{}php}, 
+		\hyperpage{36}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}
+    \subitem {activer\discretionary {-}{}{}B\discretionary {-}{}{}D}, 
+		\hyperpage{13}
+    \subitem {ajouter\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{13}
+    \subitem {ajouter\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}, 
+		\hyperpage{14}
+    \subitem {connecter\discretionary {-}{}{}Serveur\discretionary {-}{}{}B\discretionary {-}{}{}D}, 
+		\hyperpage{15}
+    \subitem {deconnecter\discretionary {-}{}{}Serveur\discretionary {-}{}{}B\discretionary {-}{}{}D}, 
+		\hyperpage{15}
+    \subitem {existe\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{15}
+    \subitem {filtrer\discretionary {-}{}{}Chaine\discretionary {-}{}{}Pour\discretionary {-}{}{}B\discretionary {-}{}{}D}, 
+		\hyperpage{16}
+    \subitem {modifier\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait}, 
+		\hyperpage{17}
+    \subitem {modifier\discretionary {-}{}{}Etat\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{18}
+    \subitem {obtenir\discretionary {-}{}{}Dernier\discretionary {-}{}{}Mois\discretionary {-}{}{}Saisi}, 
+		\hyperpage{18}
+    \subitem {obtenir\discretionary {-}{}{}Detail\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{19}
+    \subitem {obtenir\discretionary {-}{}{}Detail\discretionary {-}{}{}Visiteur}, 
+		\hyperpage{20}
+    \subitem {obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{20}
+    \subitem {obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Elts\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{20}
+    \subitem {obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Mois\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{21}
+    \subitem {supprimer\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}, 
+		\hyperpage{21}
+    \subitem {verifier\discretionary {-}{}{}Infos\discretionary {-}{}{}Connexion}, 
+		\hyperpage{22}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}gestion\discretionary {-}{}{}Session.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}
+    \subitem {affecter\discretionary {-}{}{}Infos\discretionary {-}{}{}Connecte}, 
+		\hyperpage{23}
+    \subitem {deconnecter\discretionary {-}{}{}Visiteur}, 
+		\hyperpage{23}
+    \subitem {est\discretionary {-}{}{}Visiteur\discretionary {-}{}{}Connecte}, 
+		\hyperpage{23}
+    \subitem {init\discretionary {-}{}{}Session}, \hyperpage{23}
+    \subitem {obtenir\discretionary {-}{}{}Id\discretionary {-}{}{}User\discretionary {-}{}{}Connecte}, 
+		\hyperpage{23}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}init.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}
+    \subitem {\$demande\discretionary {-}{}{}Deconnexion}, 
+		\hyperpage{24}
+    \subitem {\$id\discretionary {-}{}{}Connexion}, \hyperpage{24}
+    \subitem {\$tab\discretionary {-}{}{}Erreurs}, \hyperpage{24}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}
+    \subitem {ajouter\discretionary {-}{}{}Erreur}, \hyperpage{25}
+    \subitem {convertir\discretionary {-}{}{}Date\discretionary {-}{}{}Anglais\discretionary {-}{}{}Vers\discretionary {-}{}{}Francais}, 
+		\hyperpage{25}
+    \subitem {convertir\discretionary {-}{}{}Date\discretionary {-}{}{}Francais\discretionary {-}{}{}Vers\discretionary {-}{}{}Anglais}, 
+		\hyperpage{25}
+    \subitem {est\discretionary {-}{}{}Dans\discretionary {-}{}{}Annee\discretionary {-}{}{}Ecoulee}, 
+		\hyperpage{26}
+    \subitem {est\discretionary {-}{}{}Date}, \hyperpage{26}
+    \subitem {est\discretionary {-}{}{}Entier\discretionary {-}{}{}Positif}, 
+		\hyperpage{27}
+    \subitem {filtrer\discretionary {-}{}{}Chaine\discretionary {-}{}{}Pour\discretionary {-}{}{}Navig}, 
+		\hyperpage{28}
+    \subitem {lire\discretionary {-}{}{}Donnee}, \hyperpage{28}
+    \subitem {lire\discretionary {-}{}{}Donnee\discretionary {-}{}{}Post}, 
+		\hyperpage{28}
+    \subitem {lire\discretionary {-}{}{}Donnee\discretionary {-}{}{}Url}, 
+		\hyperpage{29}
+    \subitem {nb\discretionary {-}{}{}Erreurs}, \hyperpage{29}
+    \subitem {obtenir\discretionary {-}{}{}Libelle\discretionary {-}{}{}Mois}, 
+		\hyperpage{29}
+    \subitem {to\discretionary {-}{}{}String\discretionary {-}{}{}Erreurs}, 
+		\hyperpage{29}
+    \subitem {verifier\discretionary {-}{}{}Entiers\discretionary {-}{}{}Positifs}, 
+		\hyperpage{30}
+    \subitem {verifier\discretionary {-}{}{}Ligne\discretionary {-}{}{}Frais\discretionary {-}{}{}H\discretionary {-}{}{}F}, 
+		\hyperpage{30}
+
+  \indexspace
+
+  \item {activer\discretionary {-}{}{}B\discretionary {-}{}{}D}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{13}
+  \item {affecter\discretionary {-}{}{}Infos\discretionary {-}{}{}Connecte}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}gestion\discretionary {-}{}{}Session.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{23}
+  \item {ajouter\discretionary {-}{}{}Erreur}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{25}
+  \item {ajouter\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{13}
+  \item {ajouter\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {c\discretionary {-}{}{}Accueil.\discretionary {-}{}{}php}
+    \subitem {\$rep\discretionary {-}{}{}Include}, \hyperpage{9}
+    \subitem {if}, \hyperpage{9}
+  \item {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}
+    \subitem {\$etape}, \hyperpage{10}
+    \subitem {\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Mois}, 
+		\hyperpage{10}
+    \subitem {\$lg\discretionary {-}{}{}Mois}, \hyperpage{10}
+    \subitem {\$mois\discretionary {-}{}{}Saisi}, \hyperpage{10}
+    \subitem {\$rep\discretionary {-}{}{}Include}, \hyperpage{10}
+    \subitem {\$req}, \hyperpage{10}
+    \subitem {if}, \hyperpage{10}
+  \item {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}
+    \subitem {\$date\discretionary {-}{}{}H\discretionary {-}{}{}F}, 
+		\hyperpage{11}
+    \subitem {\$etape}, \hyperpage{11}
+    \subitem {\$existe\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{11}
+    \subitem {\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Elts\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}, 
+		\hyperpage{11}
+    \subitem {\$id\discretionary {-}{}{}Jeu\discretionary {-}{}{}Elts\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}, 
+		\hyperpage{11}
+    \subitem {\$id\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}, 
+		\hyperpage{11}
+    \subitem {\$lg\discretionary {-}{}{}Elt\discretionary {-}{}{}Forfait}, 
+		\hyperpage{11}
+    \subitem {\$lg\discretionary {-}{}{}Elt\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}, 
+		\hyperpage{11}
+    \subitem {\$libelle\discretionary {-}{}{}H\discretionary {-}{}{}F}, 
+		\hyperpage{11}
+    \subitem {\$mois}, \hyperpage{11}
+    \subitem {\$montant\discretionary {-}{}{}H\discretionary {-}{}{}F}, 
+		\hyperpage{11}
+    \subitem {\$rep\discretionary {-}{}{}Include}, \hyperpage{11}
+    \subitem {\$req}, \hyperpage{12}
+    \subitem {\$tab\discretionary {-}{}{}Qte\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait}, 
+		\hyperpage{12}
+    \subitem {if}, \hyperpage{12}
+  \item {c\discretionary {-}{}{}Se\discretionary {-}{}{}Connecter.\discretionary {-}{}{}php}
+    \subitem {\$etape}, \hyperpage{12}
+    \subitem {\$rep\discretionary {-}{}{}Include}, \hyperpage{12}
+    \subitem {if}, \hyperpage{12}
+  \item {c\discretionary {-}{}{}Se\discretionary {-}{}{}Deconnecter.\discretionary {-}{}{}php}
+    \subitem {\$rep\discretionary {-}{}{}Include}, \hyperpage{13}
+  \item {connecter\discretionary {-}{}{}Serveur\discretionary {-}{}{}B\discretionary {-}{}{}D}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{15}
+  \item {convertir\discretionary {-}{}{}Date\discretionary {-}{}{}Anglais\discretionary {-}{}{}Vers\discretionary {-}{}{}Francais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{25}
+  \item {convertir\discretionary {-}{}{}Date\discretionary {-}{}{}Francais\discretionary {-}{}{}Vers\discretionary {-}{}{}Anglais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{25}
+  \item {creation\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{31}
+  \item {creation\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{32}
+  \item {creation\discretionary {-}{}{}Frais\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{32}
+
+  \indexspace
+
+  \item {deconnecter\discretionary {-}{}{}Serveur\discretionary {-}{}{}B\discretionary {-}{}{}D}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{15}
+  \item {deconnecter\discretionary {-}{}{}Visiteur}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}gestion\discretionary {-}{}{}Session.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{23}
+  \item {default}, \hyperpage{7}
+
+  \indexspace
+
+  \item {est\discretionary {-}{}{}Dans\discretionary {-}{}{}Annee\discretionary {-}{}{}Ecoulee}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{26}
+  \item {est\discretionary {-}{}{}Date}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{26}
+  \item {est\discretionary {-}{}{}Entier\discretionary {-}{}{}Positif}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{27}
+  \item {est\discretionary {-}{}{}Visiteur\discretionary {-}{}{}Connecte}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}gestion\discretionary {-}{}{}Session.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{23}
+  \item {existe\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}
+    \subitem {creation\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais}, 
+		\hyperpage{31}
+    \subitem {creation\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}, 
+		\hyperpage{32}
+    \subitem {creation\discretionary {-}{}{}Frais\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}, 
+		\hyperpage{32}
+    \subitem {get\discretionary {-}{}{}Dernier\discretionary {-}{}{}Mois}, 
+		\hyperpage{33}
+    \subitem {get\discretionary {-}{}{}Des\discretionary {-}{}{}Frais\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}, 
+		\hyperpage{33}
+    \subitem {get\discretionary {-}{}{}Les\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais}, 
+		\hyperpage{33}
+    \subitem {get\discretionary {-}{}{}Les\discretionary {-}{}{}Id\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}, 
+		\hyperpage{34}
+    \subitem {get\discretionary {-}{}{}Les\discretionary {-}{}{}Visiteurs}, 
+		\hyperpage{34}
+    \subitem {get\discretionary {-}{}{}Mois}, \hyperpage{34}
+    \subitem {get\discretionary {-}{}{}Mois\discretionary {-}{}{}Precedent}, 
+		\hyperpage{35}
+    \subitem {get\discretionary {-}{}{}Mois\discretionary {-}{}{}Suivant}, 
+		\hyperpage{35}
+    \subitem {maj\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}, 
+		\hyperpage{35}
+    \subitem {update\discretionary {-}{}{}Mdp\discretionary {-}{}{}Visiteur}, 
+		\hyperpage{36}
+  \item {filtrer\discretionary {-}{}{}Chaine\discretionary {-}{}{}Pour\discretionary {-}{}{}B\discretionary {-}{}{}D}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{16}
+  \item {filtrer\discretionary {-}{}{}Chaine\discretionary {-}{}{}Pour\discretionary {-}{}{}Navig}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{28}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}Dernier\discretionary {-}{}{}Mois}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{33}
+  \item {get\discretionary {-}{}{}Des\discretionary {-}{}{}Frais\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{33}
+  \item {get\discretionary {-}{}{}Les\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{33}
+  \item {get\discretionary {-}{}{}Les\discretionary {-}{}{}Id\discretionary {-}{}{}Frais\discretionary {-}{}{}Forfait}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{34}
+  \item {get\discretionary {-}{}{}Les\discretionary {-}{}{}Visiteurs}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{34}
+  \item {get\discretionary {-}{}{}Mois}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{34}
+  \item {get\discretionary {-}{}{}Mois\discretionary {-}{}{}Precedent}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{35}
+  \item {get\discretionary {-}{}{}Mois\discretionary {-}{}{}Suivant}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{35}
+
+  \indexspace
+
+  \item {if}
+    \subitem {c\discretionary {-}{}{}Accueil.\discretionary {-}{}{}php}, 
+		\hyperpage{9}
+    \subitem {c\discretionary {-}{}{}Consult\discretionary {-}{}{}Fiches\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{10}
+    \subitem {c\discretionary {-}{}{}Saisie\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais.\discretionary {-}{}{}php}, 
+		\hyperpage{12}
+    \subitem {c\discretionary {-}{}{}Se\discretionary {-}{}{}Connecter.\discretionary {-}{}{}php}, 
+		\hyperpage{12}
+  \item {init\discretionary {-}{}{}Session}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}gestion\discretionary {-}{}{}Session.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {lire\discretionary {-}{}{}Donnee}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{28}
+  \item {lire\discretionary {-}{}{}Donnee\discretionary {-}{}{}Post}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{28}
+  \item {lire\discretionary {-}{}{}Donnee\discretionary {-}{}{}Url}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {maj\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{35}
+  \item {maj\discretionary {-}{}{}G\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}main.\discretionary {-}{}{}php}
+    \subitem {\$bdd}, \hyperpage{36}
+    \subitem {\$mdp}, \hyperpage{36}
+    \subitem {\$serveur}, \hyperpage{36}
+    \subitem {\$user}, \hyperpage{36}
+  \item {modifier\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{17}
+  \item {modifier\discretionary {-}{}{}Etat\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {nb\discretionary {-}{}{}Erreurs}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {obtenir\discretionary {-}{}{}Dernier\discretionary {-}{}{}Mois\discretionary {-}{}{}Saisi}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{18}
+  \item {obtenir\discretionary {-}{}{}Detail\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{19}
+  \item {obtenir\discretionary {-}{}{}Detail\discretionary {-}{}{}Visiteur}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{20}
+  \item {obtenir\discretionary {-}{}{}Id\discretionary {-}{}{}User\discretionary {-}{}{}Connecte}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}gestion\discretionary {-}{}{}Session.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{23}
+  \item {obtenir\discretionary {-}{}{}Libelle\discretionary {-}{}{}Mois}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{29}
+  \item {obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Elts\discretionary {-}{}{}Forfait\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{20}
+  \item {obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Elts\discretionary {-}{}{}Hors\discretionary {-}{}{}Forfait\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{20}
+  \item {obtenir\discretionary {-}{}{}Req\discretionary {-}{}{}Mois\discretionary {-}{}{}Fiche\discretionary {-}{}{}Frais}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {supprimer\discretionary {-}{}{}Ligne\discretionary {-}{}{}H\discretionary {-}{}{}F}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {to\discretionary {-}{}{}String\discretionary {-}{}{}Erreurs}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {update\discretionary {-}{}{}Mdp\discretionary {-}{}{}Visiteur}
+    \subitem {fct.\discretionary {-}{}{}inc.\discretionary {-}{}{}php}, 
+		\hyperpage{36}
+
+  \indexspace
+
+  \item {verifier\discretionary {-}{}{}Entiers\discretionary {-}{}{}Positifs}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{30}
+  \item {verifier\discretionary {-}{}{}Infos\discretionary {-}{}{}Connexion}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}bd\discretionary {-}{}{}Gestion\discretionary {-}{}{}Donnees.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{22}
+  \item {verifier\discretionary {-}{}{}Ligne\discretionary {-}{}{}Frais\discretionary {-}{}{}H\discretionary {-}{}{}F}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}utilitaires\discretionary {-}{}{}Et\discretionary {-}{}{}Gestion\discretionary {-}{}{}Erreurs.\discretionary {-}{}{}lib.\discretionary {-}{}{}php}, 
+		\hyperpage{30}
+
+\end{theindex}

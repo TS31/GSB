@@ -1,0 +1,112 @@
+\hypertarget{__gestion_session_8lib_8php}{\section{Référence du fichier /home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-gestion\-Session.lib.\-php}
+\label{__gestion_session_8lib_8php}\index{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-gestion\-Session.\-lib.\-php@{/home/trackoen/\-P\-H\-P\-\_\-\-P\-R\-O\-J\-E\-C\-T/\-G\-S\-B\-\_\-\-Appli/include/\-\_\-gestion\-Session.\-lib.\-php}}
+}
+\subsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacedefault}{default}
+\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{__gestion_session_8lib_8php_a59570c6f011b3618075794d8ae341d50}{init\-Session} ()
+\item 
+\hyperlink{__gestion_session_8lib_8php_a7af627b049f30bda0af2678c3327aff0}{obtenir\-Id\-User\-Connecte} ()
+\item 
+\hyperlink{__gestion_session_8lib_8php_a6e2d96c04d04362c4b3e84abe3d79640}{affecter\-Infos\-Connecte} (\$id, \$login)
+\item 
+\hyperlink{__gestion_session_8lib_8php_ae31f1b8a9f65a7180483f4d79c478a6e}{deconnecter\-Visiteur} ()
+\item 
+\hyperlink{__gestion_session_8lib_8php_afe911e51f16958708b8b700981cd2567}{est\-Visiteur\-Connecte} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions}
+\hypertarget{__gestion_session_8lib_8php_a6e2d96c04d04362c4b3e84abe3d79640}{\index{\-\_\-gestion\-Session.\-lib.\-php@{\-\_\-gestion\-Session.\-lib.\-php}!affecter\-Infos\-Connecte@{affecter\-Infos\-Connecte}}
+\index{affecter\-Infos\-Connecte@{affecter\-Infos\-Connecte}!_gestionSession.lib.php@{\-\_\-gestion\-Session.\-lib.\-php}}
+\subsubsection[{affecter\-Infos\-Connecte}]{\setlength{\rightskip}{0pt plus 5cm}affecter\-Infos\-Connecte (
+\begin{DoxyParamCaption}
+\item[{}]{\$id, }
+\item[{}]{\$login}
+\end{DoxyParamCaption}
+)}}\label{__gestion_session_8lib_8php_a6e2d96c04d04362c4b3e84abe3d79640}
+Conserve en variables session les informations du visiteur connecté
+
+Conserve en variables session l'id \$id et le login \$login du visiteur connecté 
+\begin{DoxyParams}{Paramètres}
+{\em string} & id du visiteur \\
+\hline
+{\em string} & login du visiteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 39 du fichier \-\_\-gestion\-Session.\-lib.\-php.
+
+\hypertarget{__gestion_session_8lib_8php_ae31f1b8a9f65a7180483f4d79c478a6e}{\index{\-\_\-gestion\-Session.\-lib.\-php@{\-\_\-gestion\-Session.\-lib.\-php}!deconnecter\-Visiteur@{deconnecter\-Visiteur}}
+\index{deconnecter\-Visiteur@{deconnecter\-Visiteur}!_gestionSession.lib.php@{\-\_\-gestion\-Session.\-lib.\-php}}
+\subsubsection[{deconnecter\-Visiteur}]{\setlength{\rightskip}{0pt plus 5cm}deconnecter\-Visiteur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{__gestion_session_8lib_8php_ae31f1b8a9f65a7180483f4d79c478a6e}
+Déconnecte le visiteur qui s'est identifié sur le site.
+
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 49 du fichier \-\_\-gestion\-Session.\-lib.\-php.
+
+\hypertarget{__gestion_session_8lib_8php_afe911e51f16958708b8b700981cd2567}{\index{\-\_\-gestion\-Session.\-lib.\-php@{\-\_\-gestion\-Session.\-lib.\-php}!est\-Visiteur\-Connecte@{est\-Visiteur\-Connecte}}
+\index{est\-Visiteur\-Connecte@{est\-Visiteur\-Connecte}!_gestionSession.lib.php@{\-\_\-gestion\-Session.\-lib.\-php}}
+\subsubsection[{est\-Visiteur\-Connecte}]{\setlength{\rightskip}{0pt plus 5cm}est\-Visiteur\-Connecte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{__gestion_session_8lib_8php_afe911e51f16958708b8b700981cd2567}
+Vérifie si un visiteur s'est connecté sur le site.
+
+Retourne true si un visiteur s'est identifié sur le site, false sinon. \begin{DoxyReturn}{Renvoie}
+boolean échec ou succès 
+\end{DoxyReturn}
+
+
+Définition à la ligne 60 du fichier \-\_\-gestion\-Session.\-lib.\-php.
+
+\hypertarget{__gestion_session_8lib_8php_a59570c6f011b3618075794d8ae341d50}{\index{\-\_\-gestion\-Session.\-lib.\-php@{\-\_\-gestion\-Session.\-lib.\-php}!init\-Session@{init\-Session}}
+\index{init\-Session@{init\-Session}!_gestionSession.lib.php@{\-\_\-gestion\-Session.\-lib.\-php}}
+\subsubsection[{init\-Session}]{\setlength{\rightskip}{0pt plus 5cm}init\-Session (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{__gestion_session_8lib_8php_a59570c6f011b3618075794d8ae341d50}
+Démarre ou poursuit une session.
+
+\begin{DoxyReturn}{Renvoie}
+void 
+\end{DoxyReturn}
+
+
+Définition à la ligne 13 du fichier \-\_\-gestion\-Session.\-lib.\-php.
+
+\hypertarget{__gestion_session_8lib_8php_a7af627b049f30bda0af2678c3327aff0}{\index{\-\_\-gestion\-Session.\-lib.\-php@{\-\_\-gestion\-Session.\-lib.\-php}!obtenir\-Id\-User\-Connecte@{obtenir\-Id\-User\-Connecte}}
+\index{obtenir\-Id\-User\-Connecte@{obtenir\-Id\-User\-Connecte}!_gestionSession.lib.php@{\-\_\-gestion\-Session.\-lib.\-php}}
+\subsubsection[{obtenir\-Id\-User\-Connecte}]{\setlength{\rightskip}{0pt plus 5cm}obtenir\-Id\-User\-Connecte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{__gestion_session_8lib_8php_a7af627b049f30bda0af2678c3327aff0}
+Fournit l'id du visiteur connecté.
+
+Retourne l'id du visiteur connecté, une chaîne vide si pas de visiteur connecté. \begin{DoxyReturn}{Renvoie}
+string id du visiteur connecté 
+\end{DoxyReturn}
+
+
+Définition à la ligne 23 du fichier \-\_\-gestion\-Session.\-lib.\-php.
+
