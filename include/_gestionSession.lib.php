@@ -15,10 +15,10 @@ function initSession() {
 }
 
 /** 
- * Fournit l'id du visiteur connecté.                     
+ * Fournit l'id de l'utilisateur connecté.                     
  *
- * Retourne l'id du visiteur connecté, une chaîne vide si pas de visiteur connecté.
- * @return string id du visiteur connecté
+ * Retourne l'id de l'utilisateur connecté, une chaîne vide si pas d'utilisateur connecté.
+ * @return string id de l'utilisateur connecté
  */
 function obtenirIdUserConnecte() {
     $ident="";
@@ -29,35 +29,38 @@ function obtenirIdUserConnecte() {
 }
 
 /**
- * Conserve en variables session les informations du visiteur connecté
+ * Conserve en variables session les informations de l'utilisateurteur connecté
  * 
- * Conserve en variables session l'id $id et le login $login du visiteur connecté
- * @param string id du visiteur
- * @param string login du visiteur
+ * Conserve en variables session l'id $id et le login $login de l'utilisateur connecté
+ * @param string id de l'utilisateur
+ * @param string login de l'utilisateur
+ * @param string type de l'utilisateur
  * @return void    
  */
 function affecterInfosConnecte($id, $login) {
     $_SESSION["idUser"] = $id;
     $_SESSION["loginUser"] = $login;
+    $_SESSION["typeUser"] = $type;
 }
 
 /** 
- * Déconnecte le visiteur qui s'est identifié sur le site.                     
+ * Déconnecte l'utilisateur qui s'est identifié sur le site.                     
  *
  * @return void
  */
-function deconnecterVisiteur() {
+function deconnecterUtilisateur() {
     unset($_SESSION["idUser"]);
     unset($_SESSION["loginUser"]);
+    unset($_SESSION["typeUser"]);
 }
 
 /** 
- * Vérifie si un visiteur s'est connecté sur le site.                     
+ * Vérifie si un utilisateur s'est connecté sur le site.                     
  *
- * Retourne true si un visiteur s'est identifié sur le site, false sinon. 
+ * Retourne true si un utilisateur s'est identifié sur le site, false sinon. 
  * @return boolean échec ou succès
  */
-function estVisiteurConnecte() {
+function estUtilisateurConnecte() {
     // actuellement il n'y a que les visiteurs qui se connectent
     return isset($_SESSION["loginUser"]);
 }

@@ -10,24 +10,29 @@
     <div id="menuGauche">
      <div id="infosUtil">
     <?php      
-      if (estVisiteurConnecte() ) {
+      if (estUtilisateurConnecte() ) {
           $idUser = obtenirIdUserConnecte() ;
-          $lgUser = obtenirDetailVisiteur($idConnexion, $idUser);
+          $lgUser = obtenirDetailUtilisateur($idConnexion, $idUser);
           $nom = $lgUser['nom'];
-          $prenom = $lgUser['prenom'];            
+          $prenom = $lgUser['prenom'];
+          $type = $lgUser['idType'];
     ?>
         <h2>
     <?php  
             echo $nom . " " . $prenom ;
     ?>
         </h2>
-        <h3>Visiteur médical</h3>        
+        <h3>
+            <?php
+                echo $type ;
+            ?>
+        </h3>        
     <?php
        }
     ?>  
       </div>  
 <?php      
-  if (estVisiteurConnecte() ) {
+  if (estUtilisateurConnecte() ) {
 ?>
         <ul id="menuList">
            <li class="smenu">
@@ -36,12 +41,30 @@
            <li class="smenu">
               <a href="cSeDeconnecter.php" title="Se déconnecter">Se déconnecter</a>
            </li>
+           <?php
+                if ($type == "Visiteur Médical") {
+           ?>
+           <!-- Pour les visiteurs médicaux -->
            <li class="smenu">
               <a href="cSaisieFicheFrais.php" title="Saisie fiche de frais du mois courant">Saisie fiche de frais</a>
            </li>
            <li class="smenu">
               <a href="cConsultFichesFrais.php" title="Consultation de mes fiches de frais">Mes fiches de frais</a>
            </li>
+           <?php
+                }
+                if ($type == "Comptable") {
+           ?>
+           <!-- Pour les comptables -->
+           <li class="smenu">
+               <a href="cValiderFichesFrais.php" title="Validation des fiches de frais du dernier mois">Validation des fiches de frais</a>
+           </li>
+           <li class="smenu">
+               <a href="cMisePaiementFichesFrais.php" title="Suivi du paiement des fiches de frais du dernier mois">Suivi des paiements</a>
+           </li>
+           <?php
+                }
+           ?>
          </ul>
         <?php
           // affichage des éventuelles erreurs déjà détectées
