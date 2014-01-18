@@ -37,7 +37,7 @@ function obtenirIdUserConnecte() {
  * @param string type de l'utilisateur
  * @return void    
  */
-function affecterInfosConnecte($id, $login) {
+function affecterInfosConnecte($id, $login, $type) {
     $_SESSION["idUser"] = $id;
     $_SESSION["loginUser"] = $login;
     $_SESSION["typeUser"] = $type;

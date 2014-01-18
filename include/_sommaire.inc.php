@@ -42,7 +42,7 @@
               <a href="cSeDeconnecter.php" title="Se déconnecter">Se déconnecter</a>
            </li>
            <?php
-                if ($type == "Visiteur Médical") {
+                if ($_SESSION["typeUser"] == 'V') {
            ?>
            <!-- Pour les visiteurs médicaux -->
            <li class="smenu">
@@ -53,7 +53,7 @@
            </li>
            <?php
                 }
-                if ($type == "Comptable") {
+                if ($_SESSION["typeUser"] == 'C') {
            ?>
            <!-- Pour les comptables -->
            <li class="smenu">
